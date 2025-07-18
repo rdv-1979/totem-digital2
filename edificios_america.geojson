@@ -1,0 +1,3257 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.7 375dc00a",
+  "osm3s": {
+    "timestamp_osm_base": "2025-06-24T22:00:13Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 325722126,
+  "lat": -35.4923244,
+  "lon": -62.9837799,
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "B6237",
+    "addr:street": "Viamonte",
+    "amenity": "fuel",
+    "brand": "Puma",
+    "brand:wikidata": "Q7259769",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "Puma",
+    "operator": "COMBUSTIBLES RIVADAVIA S.R.L."
+  }
+},
+{
+  "type": "node",
+  "id": 325722966,
+  "lat": -35.4831194,
+  "lon": -62.9779803,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Capilla San José Obrero",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 325722976,
+  "lat": -35.4881664,
+  "lon": -62.9784823,
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "148",
+    "addr:postcode": "B6237",
+    "addr:street": "Moreno",
+    "amenity": "fuel",
+    "brand": "YPF",
+    "brand:wikidata": "Q2006989",
+    "brand:wikipedia": "es:YPF",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "YPF",
+    "operator": "AGROAMERICA SACIFA"
+  }
+},
+{
+  "type": "node",
+  "id": 325723336,
+  "lat": -35.4902231,
+  "lon": -62.9971772,
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "B6237",
+    "addr:street": "Acceso Norte Lito Rodríguez",
+    "amenity": "fuel",
+    "brand": "YPF",
+    "brand:wikidata": "Q2006989",
+    "brand:wikipedia": "es:YPF",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "YPF",
+    "operator": "GARCIA WALTER ALBERTO",
+    "phone": "+54 (2337) 45-4706"
+  }
+},
+{
+  "type": "node",
+  "id": 325723443,
+  "lat": -35.4922960,
+  "lon": -62.9595114,
+  "tags": {
+    "amenity": "waste_disposal"
+  }
+},
+{
+  "type": "node",
+  "id": 325723972,
+  "lat": -35.4869558,
+  "lon": -62.9724660,
+  "tags": {
+    "addr:city": "América",
+    "addr:street": "Mitre",
+    "amenity": "library",
+    "name": "Biblioteca municipal"
+  }
+},
+{
+  "type": "node",
+  "id": 325724023,
+  "lat": -35.4831056,
+  "lon": -62.9762465,
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "6237",
+    "addr:street": "La Rioja",
+    "amenity": "school",
+    "email": "ep22america@gmail.com.ar",
+    "name": "Escuela Jornada Extendida N° 22",
+    "phone": "2337 404700"
+  }
+},
+{
+  "type": "node",
+  "id": 325724265,
+  "lat": -35.4848181,
+  "lon": -62.9775258,
+  "tags": {
+    "amenity": "kindergarten"
+  }
+},
+{
+  "type": "node",
+  "id": 2232206657,
+  "lat": -35.4886628,
+  "lon": -62.9894143,
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "B6237",
+    "addr:street": "Comandante Hillcoat",
+    "amenity": "fuel",
+    "brand": "RefiPampa",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "Voy",
+    "operator": "HEBERTO JORGE NICOLAS Y JORGE LUIS NICOLAS SOCIEDAD DE HECHO",
+    "phone": "+54 (2337) 45-3541"
+  }
+},
+{
+  "type": "node",
+  "id": 3744564627,
+  "lat": -35.4937415,
+  "lon": -62.9885770,
+  "tags": {
+    "amenity": "school",
+    "name": "Colegio Nuevo Surco"
+  }
+},
+{
+  "type": "node",
+  "id": 3903384571,
+  "lat": -35.4940581,
+  "lon": -62.9862334,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 3903384578,
+  "lat": -35.4940493,
+  "lon": -62.9863219,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3903392202,
+  "lat": -35.4941041,
+  "lon": -62.9860758,
+  "tags": {
+    "amenity": "taxi"
+  }
+},
+{
+  "type": "node",
+  "id": 9518313207,
+  "lat": -35.4915496,
+  "lon": -62.9795477,
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "221",
+    "addr:postcode": "B6237",
+    "addr:street": "Viamonte",
+    "amenity": "post_office",
+    "name": "Correo Argentino",
+    "operator": "Correo Argentino",
+    "operator:wikidata": "Q4036566",
+    "operator:wikipedia": "en:Correo Argentino",
+    "phone": "+54 (2337) 45-3159"
+  }
+},
+{
+  "type": "node",
+  "id": 11038435225,
+  "lat": -35.4862237,
+  "lon": -62.9723315,
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "309",
+    "addr:postcode": "B6237",
+    "addr:street": "Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Fernández",
+    "phone": "+54 (2337) 40-5050"
+  }
+},
+{
+  "type": "node",
+  "id": 11038435227,
+  "lat": -35.4910438,
+  "lon": -62.9821022,
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "210",
+    "addr:postcode": "B6237",
+    "addr:street": "Doctor Banfi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Caratti",
+    "phone": "+54 (2337) 45-4040"
+  }
+},
+{
+  "type": "way",
+  "id": 29557288,
+  "nodes": [
+    325716626,
+    325716837,
+    325716610,
+    325717414,
+    325716626
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "50",
+    "addr:postcode": "B6237",
+    "addr:street": "Marcos Cachau",
+    "amenity": "townhall",
+    "name": "Municipalidad de Rivadavia",
+    "phone": "+54 (2337) 45-3151",
+    "website": "http://www.munirivadavia.gov.ar"
+  }
+},
+{
+  "type": "way",
+  "id": 170145808,
+  "nodes": [
+    1812959237,
+    1812959429,
+    1812959570,
+    1812959567,
+    1812959564,
+    1812959559,
+    1812959548,
+    1812959237
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal"
+  }
+},
+{
+  "type": "way",
+  "id": 172493047,
+  "nodes": [
+    1833962183,
+    1833962182,
+    1833962181,
+    1833962184,
+    1833962183
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "272",
+    "addr:postcode": "B6237",
+    "addr:street": "San Martín",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Parroquia San Bernardo",
+    "phone": "+54 (2337) 45-2121",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 173181362,
+  "nodes": [
+    1840095205,
+    1840095203,
+    1840095207,
+    1840095222,
+    1840095205
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "mennonite",
+    "name": "Iglesia Menonita",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 290857070,
+  "nodes": [
+    2943663133,
+    2943663143,
+    2943663142,
+    2943662931,
+    2943663133
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "57",
+    "addr:postcode": "B6237",
+    "addr:street": "Doctor Banfi",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "name": "Banco de La Pampa"
+  }
+},
+{
+  "type": "way",
+  "id": 290857071,
+  "nodes": [
+    2943663148,
+    2943663145,
+    2943663147,
+    2943663150,
+    2943663153,
+    2943663148
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "301",
+    "addr:postcode": "B6237",
+    "addr:street": "Rivadavia",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Banco Nación",
+    "brand:en": "Nation Bank",
+    "brand:es": "Banco Nación",
+    "brand:wikidata": "Q2883376",
+    "brand:wikipedia": "en:Banco de la Nación Argentina",
+    "building": "yes",
+    "contact:website": "http://www.bna.com.ar/",
+    "name": "Banco Nación",
+    "name:en": "Nation Bank",
+    "name:es": "Banco Nación",
+    "official_name": "Banco de la Nación Argentina",
+    "official_name:en": "Bank of the Argentine Nation",
+    "official_name:es": "Banco de la Nación Argentina",
+    "phone": "+54 (2337) 45-3150",
+    "short_name": "BNA"
+  }
+},
+{
+  "type": "way",
+  "id": 290857072,
+  "nodes": [
+    2943662924,
+    2943662925,
+    2943662928,
+    2943662926,
+    9518313209,
+    9518313208,
+    2943662923,
+    2943662924
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "300",
+    "addr:postcode": "B6237",
+    "addr:street": "San Martín",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Banco Provincia",
+    "brand:en": "Province Bank",
+    "brand:es": "Banco Provincia",
+    "brand:wikidata": "Q4856209",
+    "brand:wikipedia": "es:Banco de la Provincia de Buenos Aires",
+    "building": "bank",
+    "name": "Banco Provincia",
+    "name:en": "Province Bank",
+    "name:es": "Banco Provincia",
+    "official_name": "Banco de la Provincia de Buenos Aires",
+    "official_name:en": "Bank of the Province of Buenos Aires",
+    "official_name:es": "Banco de la Provincia de Buenos Aires",
+    "phone": "+54 (2337) 45-3156"
+  }
+},
+{
+  "type": "way",
+  "id": 290857073,
+  "nodes": [
+    2943663157,
+    2943663156,
+    2943663159,
+    2943663158,
+    2943663162,
+    2943663164,
+    2943663157
+  ],
+  "tags": {
+    "addr:city": "Rivadavia",
+    "addr:housenumber": "64",
+    "addr:postcode": "6237",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "fire_station",
+    "contact:facebook": "https://www.facebook.com/bomberos.voluntariosderivadavia",
+    "email": "bomberosderiv@telcer.com.ar",
+    "name": "Bomberos Voluntarios de Rivadavia",
+    "phone": "+54 2337 452409"
+  }
+},
+{
+  "type": "way",
+  "id": 290857074,
+  "nodes": [
+    2943663160,
+    2943663163,
+    2943663167,
+    2943663165,
+    2943663160
+  ],
+  "tags": {
+    "amenity": "studio",
+    "name": "Canal 2"
+  }
+},
+{
+  "type": "way",
+  "id": 290857075,
+  "nodes": [
+    2943663171,
+    2943663182,
+    2943663181,
+    2943663169,
+    2943663171
+  ],
+  "tags": {
+    "amenity": "studio",
+    "name": "Canal 3"
+  }
+},
+{
+  "type": "way",
+  "id": 290857076,
+  "nodes": [
+    2943663184,
+    2943663183,
+    2943663192,
+    2943663198,
+    2943663184
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Colegio Nuevo Surco"
+  }
+},
+{
+  "type": "way",
+  "id": 290857077,
+  "nodes": [
+    2943663138,
+    2943663137,
+    2943663139,
+    3922280533,
+    2943663149,
+    2943663151,
+    2943663138
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "B6237",
+    "addr:street": "Marcos Cachau",
+    "amenity": "police",
+    "name": "Comisaría De Rivadavia",
+    "operator": "Policía de la Provincia de Buenos Aires",
+    "operator:wikidata": "Q4985546",
+    "operator:wikipedia": "es:Policía de la Provincia de Buenos Aires"
+  }
+},
+{
+  "type": "way",
+  "id": 290857078,
+  "nodes": [
+    2943663173,
+    2943663170,
+    2943663174,
+    2943663175,
+    2943663176,
+    2943663177,
+    2943663179,
+    2943663180,
+    2943663173
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Especial"
+  }
+},
+{
+  "type": "way",
+  "id": 290857079,
+  "nodes": [
+    2943663141,
+    2943663144,
+    2943663146,
+    2943663154,
+    2943663152,
+    2943663141
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Nº 1 de Rivadavia"
+  }
+},
+{
+  "type": "way",
+  "id": 290857080,
+  "nodes": [
+    2943662918,
+    2943662922,
+    2943662921,
+    2943662920,
+    2943662919,
+    2943662917,
+    2943662918
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Nº 6 de Rivadavia"
+  }
+},
+{
+  "type": "way",
+  "id": 290857081,
+  "nodes": [
+    2943663200,
+    2943663197,
+    2943663199,
+    2943663201,
+    2943663202,
+    2943663200
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Nº 9 de Rivadavia"
+  }
+},
+{
+  "type": "way",
+  "id": 290857082,
+  "nodes": [
+    2943663166,
+    2943663161,
+    2943663168,
+    2943663172,
+    2943663166
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Instituto América"
+  }
+},
+{
+  "type": "way",
+  "id": 290857083,
+  "nodes": [
+    2943663135,
+    2943663140,
+    2943662929,
+    2943662927,
+    2943663135
+  ],
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "Jardín De Infantes Nº 901"
+  }
+},
+{
+  "type": "way",
+  "id": 290857857,
+  "nodes": [
+    2943662913,
+    2943662915,
+    2943662916,
+    2943662914,
+    3924380390,
+    2943662913
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "escuela"
+  }
+},
+{
+  "type": "way",
+  "id": 318654645,
+  "nodes": [
+    3250265061,
+    3250264962,
+    3250264961,
+    3250264862,
+    3250265061
+  ],
+  "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "name": "Estacionamiento clientes de La Anónima"
+  }
+},
+{
+  "type": "way",
+  "id": 386999165,
+  "nodes": [
+    3903384565,
+    3903384574,
+    3903384563,
+    3903384577,
+    11785227765,
+    3903384581,
+    3903384569,
+    11785227763,
+    3903384572,
+    3903384575,
+    3903384564,
+    3903384566,
+    3903384576,
+    3903384568,
+    3903384582,
+    3903384570,
+    3903384573,
+    3903384565
+  ],
+  "tags": {
+    "amenity": "bus_station",
+    "building": "public",
+    "bus": "yes",
+    "disused": "yes",
+    "name": "Terminal de ómnibus",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "way",
+  "id": 386999166,
+  "nodes": [
+    3903384567,
+    3903384580,
+    3903384564,
+    3903384575,
+    3903384567
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 389252704,
+  "nodes": [
+    3924074340,
+    3924090775,
+    3924074348,
+    3924074345,
+    3924074338,
+    3924074352,
+    3924074342,
+    3924074340
+  ],
+  "tags": {
+    "access": "private",
+    "amenity": "parking"
+  }
+},
+{
+  "type": "way",
+  "id": 389275767,
+  "nodes": [
+    3924367309,
+    3924367307,
+    3924367308,
+    3924367306,
+    3924367309
+  ],
+  "tags": {
+    "amenity": "cinema",
+    "building": "yes",
+    "name": "Cine Español"
+  }
+},
+{
+  "type": "way",
+  "id": 413680469,
+  "nodes": [
+    4968258438,
+    4968258442,
+    4968258430,
+    4968258434,
+    4968258438
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "6237",
+    "addr:street": "Juan Domingo Perón",
+    "amenity": "community_centre",
+    "club": "scout",
+    "name": "Sociedad Rural Grupo Scout Francisco P. Moreno (SAAC)"
+  }
+},
+{
+  "type": "way",
+  "id": 505631882,
+  "nodes": [
+    4955197205,
+    4955197206,
+    4955197207,
+    4955197208,
+    4955197209,
+    4955197210,
+    4955197205
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Tecnica"
+  }
+},
+{
+  "type": "way",
+  "id": 696790531,
+  "nodes": [
+    6543646131,
+    6543646132,
+    6543646133,
+    6543646134,
+    6543646131
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "evangelical",
+    "religion": "universalist"
+  }
+},
+{
+  "type": "node",
+  "id": 1812959429,
+  "lat": -35.4921217,
+  "lon": -62.9872340
+},
+{
+  "type": "node",
+  "id": 2943663183,
+  "lat": -35.4930389,
+  "lon": -62.9886020
+},
+{
+  "type": "node",
+  "id": 2943663184,
+  "lat": -35.4937039,
+  "lon": -62.9894376
+},
+{
+  "type": "node",
+  "id": 2943663192,
+  "lat": -35.4939376,
+  "lon": -62.9875231
+},
+{
+  "type": "node",
+  "id": 2943663198,
+  "lat": -35.4946026,
+  "lon": -62.9883587
+},
+{
+  "type": "node",
+  "id": 1812959237,
+  "lat": -35.4912502,
+  "lon": -62.9861019
+},
+{
+  "type": "node",
+  "id": 1812959548,
+  "lat": -35.4924713,
+  "lon": -62.9845630
+},
+{
+  "type": "node",
+  "id": 1812959559,
+  "lat": -35.4925111,
+  "lon": -62.9845327
+},
+{
+  "type": "node",
+  "id": 1812959564,
+  "lat": -35.4926249,
+  "lon": -62.9846177
+},
+{
+  "type": "node",
+  "id": 1812959567,
+  "lat": -35.4927945,
+  "lon": -62.9854317
+},
+{
+  "type": "node",
+  "id": 1812959570,
+  "lat": -35.4930488,
+  "lon": -62.9861474
+},
+{
+  "type": "node",
+  "id": 3903384563,
+  "lat": -35.4941325,
+  "lon": -62.9861427
+},
+{
+  "type": "node",
+  "id": 3903384564,
+  "lat": -35.4938399,
+  "lon": -62.9862688
+},
+{
+  "type": "node",
+  "id": 3903384565,
+  "lat": -35.4940779,
+  "lon": -62.9864673
+},
+{
+  "type": "node",
+  "id": 3903384566,
+  "lat": -35.4938724,
+  "lon": -62.9863086
+},
+{
+  "type": "node",
+  "id": 3903384567,
+  "lat": -35.4939095,
+  "lon": -62.9859921
+},
+{
+  "type": "node",
+  "id": 3903384568,
+  "lat": -35.4939272,
+  "lon": -62.9864109
+},
+{
+  "type": "node",
+  "id": 3903384569,
+  "lat": -35.4940735,
+  "lon": -62.9859281
+},
+{
+  "type": "node",
+  "id": 3903384570,
+  "lat": -35.4939949,
+  "lon": -62.9863546
+},
+{
+  "type": "node",
+  "id": 3903384572,
+  "lat": -35.4939971,
+  "lon": -62.9860783
+},
+{
+  "type": "node",
+  "id": 3903384573,
+  "lat": -35.4939774,
+  "lon": -62.9864243
+},
+{
+  "type": "node",
+  "id": 3903384574,
+  "lat": -35.4940997,
+  "lon": -62.9863358
+},
+{
+  "type": "node",
+  "id": 3903384575,
+  "lat": -35.4939622,
+  "lon": -62.9860488
+},
+{
+  "type": "node",
+  "id": 3903384576,
+  "lat": -35.4938486,
+  "lon": -62.9863466
+},
+{
+  "type": "node",
+  "id": 3903384577,
+  "lat": -35.4940624,
+  "lon": -62.9860913
+},
+{
+  "type": "node",
+  "id": 3903384580,
+  "lat": -35.4937778,
+  "lon": -62.9862280
+},
+{
+  "type": "node",
+  "id": 3903384581,
+  "lat": -35.4941039,
+  "lon": -62.9859465
+},
+{
+  "type": "node",
+  "id": 3903384582,
+  "lat": -35.4939774,
+  "lon": -62.9863412
+},
+{
+  "type": "node",
+  "id": 6543646131,
+  "lat": -35.4946454,
+  "lon": -62.9802315
+},
+{
+  "type": "node",
+  "id": 6543646132,
+  "lat": -35.4946732,
+  "lon": -62.9803773
+},
+{
+  "type": "node",
+  "id": 6543646133,
+  "lat": -35.4945888,
+  "lon": -62.9804016
+},
+{
+  "type": "node",
+  "id": 6543646134,
+  "lat": -35.4945610,
+  "lon": -62.9802558
+},
+{
+  "type": "node",
+  "id": 11785227763,
+  "lat": -35.4940358,
+  "lon": -62.9860022
+},
+{
+  "type": "node",
+  "id": 11785227765,
+  "lat": -35.4940862,
+  "lon": -62.9860082
+},
+{
+  "type": "node",
+  "id": 2943663157,
+  "lat": -35.4910358,
+  "lon": -62.9752030
+},
+{
+  "type": "node",
+  "id": 2943663158,
+  "lat": -35.4912127,
+  "lon": -62.9746168
+},
+{
+  "type": "node",
+  "id": 2943663159,
+  "lat": -35.4912327,
+  "lon": -62.9747289
+},
+{
+  "type": "node",
+  "id": 2943663160,
+  "lat": -35.4912136,
+  "lon": -62.9737796
+},
+{
+  "type": "node",
+  "id": 2943663161,
+  "lat": -35.4912473,
+  "lon": -62.9744545
+},
+{
+  "type": "node",
+  "id": 2943663162,
+  "lat": -35.4912539,
+  "lon": -62.9746059
+},
+{
+  "type": "node",
+  "id": 2943663163,
+  "lat": -35.4912890,
+  "lon": -62.9742425
+},
+{
+  "type": "node",
+  "id": 2943663164,
+  "lat": -35.4913372,
+  "lon": -62.9751188
+},
+{
+  "type": "node",
+  "id": 2943663165,
+  "lat": -35.4913505,
+  "lon": -62.9737455
+},
+{
+  "type": "node",
+  "id": 2943663166,
+  "lat": -35.4913584,
+  "lon": -62.9751173
+},
+{
+  "type": "node",
+  "id": 2943663167,
+  "lat": -35.4914199,
+  "lon": -62.9742060
+},
+{
+  "type": "node",
+  "id": 2943663168,
+  "lat": -35.4916044,
+  "lon": -62.9743619
+},
+{
+  "type": "node",
+  "id": 2943663169,
+  "lat": -35.4916169,
+  "lon": -62.9750533
+},
+{
+  "type": "node",
+  "id": 2943663170,
+  "lat": -35.4916215,
+  "lon": -62.9744209
+},
+{
+  "type": "node",
+  "id": 2943663171,
+  "lat": -35.4916502,
+  "lon": -62.9752491
+},
+{
+  "type": "node",
+  "id": 2943663172,
+  "lat": -35.4917195,
+  "lon": -62.9750198
+},
+{
+  "type": "node",
+  "id": 2943663173,
+  "lat": -35.4917306,
+  "lon": -62.9750154
+},
+{
+  "type": "node",
+  "id": 2943663174,
+  "lat": -35.4919250,
+  "lon": -62.9743380
+},
+{
+  "type": "node",
+  "id": 2943663175,
+  "lat": -35.4919607,
+  "lon": -62.9745330
+},
+{
+  "type": "node",
+  "id": 2943663176,
+  "lat": -35.4919905,
+  "lon": -62.9745232
+},
+{
+  "type": "node",
+  "id": 2943663177,
+  "lat": -35.4920321,
+  "lon": -62.9747401
+},
+{
+  "type": "node",
+  "id": 2943663179,
+  "lat": -35.4920917,
+  "lon": -62.9747279
+},
+{
+  "type": "node",
+  "id": 2943663180,
+  "lat": -35.4921214,
+  "lon": -62.9749155
+},
+{
+  "type": "node",
+  "id": 2943663181,
+  "lat": -35.4921220,
+  "lon": -62.9749198
+},
+{
+  "type": "node",
+  "id": 2943663182,
+  "lat": -35.4921565,
+  "lon": -62.9751159
+},
+{
+  "type": "node",
+  "id": 2943663197,
+  "lat": -35.4946311,
+  "lon": -62.9735517
+},
+{
+  "type": "node",
+  "id": 2943663200,
+  "lat": -35.4947422,
+  "lon": -62.9741658
+},
+{
+  "type": "node",
+  "id": 2943663202,
+  "lat": -35.4950894,
+  "lon": -62.9740805
+},
+{
+  "type": "node",
+  "id": 3250264862,
+  "lat": -35.4913233,
+  "lon": -62.9798531
+},
+{
+  "type": "node",
+  "id": 3250264961,
+  "lat": -35.4913570,
+  "lon": -62.9800750
+},
+{
+  "type": "node",
+  "id": 3250264962,
+  "lat": -35.4917352,
+  "lon": -62.9799885
+},
+{
+  "type": "node",
+  "id": 3250265061,
+  "lat": -35.4917016,
+  "lon": -62.9797666
+},
+{
+  "type": "node",
+  "id": 2943663199,
+  "lat": -35.4946767,
+  "lon": -62.9734592
+},
+{
+  "type": "node",
+  "id": 2943663201,
+  "lat": -35.4949644,
+  "lon": -62.9733861
+},
+{
+  "type": "node",
+  "id": 325716610,
+  "lat": -35.4902972,
+  "lon": -62.9751838
+},
+{
+  "type": "node",
+  "id": 325716626,
+  "lat": -35.4898778,
+  "lon": -62.9757543
+},
+{
+  "type": "node",
+  "id": 325716837,
+  "lat": -35.4897971,
+  "lon": -62.9753259
+},
+{
+  "type": "node",
+  "id": 325717414,
+  "lat": -35.4903779,
+  "lon": -62.9756122
+},
+{
+  "type": "node",
+  "id": 1833962181,
+  "lat": -35.4889468,
+  "lon": -62.9745829
+},
+{
+  "type": "node",
+  "id": 1833962182,
+  "lat": -35.4890016,
+  "lon": -62.9748670
+},
+{
+  "type": "node",
+  "id": 1833962183,
+  "lat": -35.4888925,
+  "lon": -62.9748998
+},
+{
+  "type": "node",
+  "id": 1833962184,
+  "lat": -35.4888392,
+  "lon": -62.9746140
+},
+{
+  "type": "node",
+  "id": 2943662913,
+  "lat": -35.4882231,
+  "lon": -62.9737106
+},
+{
+  "type": "node",
+  "id": 2943662914,
+  "lat": -35.4882965,
+  "lon": -62.9741382
+},
+{
+  "type": "node",
+  "id": 2943662915,
+  "lat": -35.4884481,
+  "lon": -62.9736523
+},
+{
+  "type": "node",
+  "id": 2943662916,
+  "lat": -35.4885251,
+  "lon": -62.9740796
+},
+{
+  "type": "node",
+  "id": 2943662923,
+  "lat": -35.4891047,
+  "lon": -62.9745551
+},
+{
+  "type": "node",
+  "id": 2943662924,
+  "lat": -35.4891421,
+  "lon": -62.9747910
+},
+{
+  "type": "node",
+  "id": 2943662925,
+  "lat": -35.4893762,
+  "lon": -62.9747350
+},
+{
+  "type": "node",
+  "id": 2943662926,
+  "lat": -35.4893607,
+  "lon": -62.9743824
+},
+{
+  "type": "node",
+  "id": 2943662928,
+  "lat": -35.4894071,
+  "lon": -62.9746747
+},
+{
+  "type": "node",
+  "id": 2943662931,
+  "lat": -35.4895896,
+  "lon": -62.9770242
+},
+{
+  "type": "node",
+  "id": 2943663133,
+  "lat": -35.4896114,
+  "lon": -62.9771631
+},
+{
+  "type": "node",
+  "id": 2943663137,
+  "lat": -35.4897655,
+  "lon": -62.9751295
+},
+{
+  "type": "node",
+  "id": 2943663138,
+  "lat": -35.4898017,
+  "lon": -62.9753111
+},
+{
+  "type": "node",
+  "id": 2943663139,
+  "lat": -35.4900970,
+  "lon": -62.9750297
+},
+{
+  "type": "node",
+  "id": 2943663141,
+  "lat": -35.4898925,
+  "lon": -62.9757618
+},
+{
+  "type": "node",
+  "id": 2943663142,
+  "lat": -35.4898932,
+  "lon": -62.9769523
+},
+{
+  "type": "node",
+  "id": 2943663143,
+  "lat": -35.4899140,
+  "lon": -62.9770900
+},
+{
+  "type": "node",
+  "id": 2943663144,
+  "lat": -35.4899580,
+  "lon": -62.9761505
+},
+{
+  "type": "node",
+  "id": 2943663145,
+  "lat": -35.4899637,
+  "lon": -62.9764510
+},
+{
+  "type": "node",
+  "id": 2943663146,
+  "lat": -35.4899927,
+  "lon": -62.9761639
+},
+{
+  "type": "node",
+  "id": 2943663147,
+  "lat": -35.4899959,
+  "lon": -62.9763870
+},
+{
+  "type": "node",
+  "id": 2943663148,
+  "lat": -35.4900276,
+  "lon": -62.9768185
+},
+{
+  "type": "node",
+  "id": 2943663149,
+  "lat": -35.4902102,
+  "lon": -62.9747275
+},
+{
+  "type": "node",
+  "id": 2943663150,
+  "lat": -35.4902413,
+  "lon": -62.9763270
+},
+{
+  "type": "node",
+  "id": 2943663151,
+  "lat": -35.4902969,
+  "lon": -62.9751619
+},
+{
+  "type": "node",
+  "id": 2943663152,
+  "lat": -35.4903101,
+  "lon": -62.9756510
+},
+{
+  "type": "node",
+  "id": 2943663153,
+  "lat": -35.4903106,
+  "lon": -62.9767391
+},
+{
+  "type": "node",
+  "id": 2943663154,
+  "lat": -35.4903865,
+  "lon": -62.9760579
+},
+{
+  "type": "node",
+  "id": 2943663156,
+  "lat": -35.4909713,
+  "lon": -62.9748067
+},
+{
+  "type": "node",
+  "id": 3922280533,
+  "lat": -35.4900465,
+  "lon": -62.9747768
+},
+{
+  "type": "node",
+  "id": 3924367306,
+  "lat": -35.4876802,
+  "lon": -62.9744184
+},
+{
+  "type": "node",
+  "id": 3924367307,
+  "lat": -35.4877408,
+  "lon": -62.9738534
+},
+{
+  "type": "node",
+  "id": 3924367308,
+  "lat": -35.4875849,
+  "lon": -62.9738963
+},
+{
+  "type": "node",
+  "id": 3924367309,
+  "lat": -35.4878361,
+  "lon": -62.9743754
+},
+{
+  "type": "node",
+  "id": 3924380390,
+  "lat": -35.4882423,
+  "lon": -62.9738224
+},
+{
+  "type": "node",
+  "id": 9518313208,
+  "lat": -35.4891979,
+  "lon": -62.9745328
+},
+{
+  "type": "node",
+  "id": 9518313209,
+  "lat": -35.4891809,
+  "lon": -62.9744255
+},
+{
+  "type": "node",
+  "id": 1840095203,
+  "lat": -35.4904680,
+  "lon": -62.9728712
+},
+{
+  "type": "node",
+  "id": 1840095205,
+  "lat": -35.4903612,
+  "lon": -62.9729023
+},
+{
+  "type": "node",
+  "id": 1840095207,
+  "lat": -35.4904284,
+  "lon": -62.9726662
+},
+{
+  "type": "node",
+  "id": 1840095222,
+  "lat": -35.4903216,
+  "lon": -62.9726974
+},
+{
+  "type": "node",
+  "id": 2943662917,
+  "lat": -35.4886117,
+  "lon": -62.9688662
+},
+{
+  "type": "node",
+  "id": 2943662918,
+  "lat": -35.4887387,
+  "lon": -62.9695460
+},
+{
+  "type": "node",
+  "id": 2943662919,
+  "lat": -35.4888816,
+  "lon": -62.9687882
+},
+{
+  "type": "node",
+  "id": 2943662920,
+  "lat": -35.4889530,
+  "lon": -62.9692097
+},
+{
+  "type": "node",
+  "id": 2943662921,
+  "lat": -35.4889966,
+  "lon": -62.9691975
+},
+{
+  "type": "node",
+  "id": 2943662922,
+  "lat": -35.4890423,
+  "lon": -62.9694631
+},
+{
+  "type": "node",
+  "id": 2943662927,
+  "lat": -35.4894533,
+  "lon": -62.9717829
+},
+{
+  "type": "node",
+  "id": 2943662929,
+  "lat": -35.4895290,
+  "lon": -62.9722102
+},
+{
+  "type": "node",
+  "id": 2943663135,
+  "lat": -35.4897226,
+  "lon": -62.9717105
+},
+{
+  "type": "node",
+  "id": 2943663140,
+  "lat": -35.4897984,
+  "lon": -62.9721481
+},
+{
+  "type": "node",
+  "id": 4968258438,
+  "lat": -35.4798727,
+  "lon": -62.9685078
+},
+{
+  "type": "node",
+  "id": 4968258442,
+  "lat": -35.4783768,
+  "lon": -62.9702773
+},
+{
+  "type": "node",
+  "id": 3924074338,
+  "lat": -35.4950153,
+  "lon": -62.9630229
+},
+{
+  "type": "node",
+  "id": 3924074340,
+  "lat": -35.4952352,
+  "lon": -62.9634945
+},
+{
+  "type": "node",
+  "id": 3924074342,
+  "lat": -35.4949034,
+  "lon": -62.9630786
+},
+{
+  "type": "node",
+  "id": 3924074345,
+  "lat": -35.4950477,
+  "lon": -62.9629840
+},
+{
+  "type": "node",
+  "id": 3924074348,
+  "lat": -35.4953474,
+  "lon": -62.9633596
+},
+{
+  "type": "node",
+  "id": 3924074352,
+  "lat": -35.4949832,
+  "lon": -62.9629826
+},
+{
+  "type": "node",
+  "id": 3924090775,
+  "lat": -35.4953009,
+  "lon": -62.9634155
+},
+{
+  "type": "node",
+  "id": 4955197205,
+  "lat": -35.4942616,
+  "lon": -62.9653242
+},
+{
+  "type": "node",
+  "id": 4955197206,
+  "lat": -35.4941285,
+  "lon": -62.9653662
+},
+{
+  "type": "node",
+  "id": 4955197207,
+  "lat": -35.4940677,
+  "lon": -62.9651047
+},
+{
+  "type": "node",
+  "id": 4955197208,
+  "lat": -35.4948129,
+  "lon": -62.9649272
+},
+{
+  "type": "node",
+  "id": 4955197209,
+  "lat": -35.4949156,
+  "lon": -62.9653942
+},
+{
+  "type": "node",
+  "id": 4955197210,
+  "lat": -35.4943148,
+  "lon": -62.9655530
+},
+{
+  "type": "node",
+  "id": 4968258434,
+  "lat": -35.4782474,
+  "lon": -62.9664224
+},
+{
+  "type": "node",
+  "id": 4968258430,
+  "lat": -35.4767842,
+  "lon": -62.9682547
+}
+
+  ]
+}{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.7 375dc00a",
+  "osm3s": {
+    "timestamp_osm_base": "2025-06-24T22:00:13Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 325722126,
+  "lat": -35.4923244,
+  "lon": -62.9837799,
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "B6237",
+    "addr:street": "Viamonte",
+    "amenity": "fuel",
+    "brand": "Puma",
+    "brand:wikidata": "Q7259769",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "Puma",
+    "operator": "COMBUSTIBLES RIVADAVIA S.R.L."
+  }
+},
+{
+  "type": "node",
+  "id": 325722966,
+  "lat": -35.4831194,
+  "lon": -62.9779803,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Capilla San José Obrero",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 325722976,
+  "lat": -35.4881664,
+  "lon": -62.9784823,
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "148",
+    "addr:postcode": "B6237",
+    "addr:street": "Moreno",
+    "amenity": "fuel",
+    "brand": "YPF",
+    "brand:wikidata": "Q2006989",
+    "brand:wikipedia": "es:YPF",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "YPF",
+    "operator": "AGROAMERICA SACIFA"
+  }
+},
+{
+  "type": "node",
+  "id": 325723336,
+  "lat": -35.4902231,
+  "lon": -62.9971772,
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "B6237",
+    "addr:street": "Acceso Norte Lito Rodríguez",
+    "amenity": "fuel",
+    "brand": "YPF",
+    "brand:wikidata": "Q2006989",
+    "brand:wikipedia": "es:YPF",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "YPF",
+    "operator": "GARCIA WALTER ALBERTO",
+    "phone": "+54 (2337) 45-4706"
+  }
+},
+{
+  "type": "node",
+  "id": 325723443,
+  "lat": -35.4922960,
+  "lon": -62.9595114,
+  "tags": {
+    "amenity": "waste_disposal"
+  }
+},
+{
+  "type": "node",
+  "id": 325723972,
+  "lat": -35.4869558,
+  "lon": -62.9724660,
+  "tags": {
+    "addr:city": "América",
+    "addr:street": "Mitre",
+    "amenity": "library",
+    "name": "Biblioteca municipal"
+  }
+},
+{
+  "type": "node",
+  "id": 325724023,
+  "lat": -35.4831056,
+  "lon": -62.9762465,
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "6237",
+    "addr:street": "La Rioja",
+    "amenity": "school",
+    "email": "ep22america@gmail.com.ar",
+    "name": "Escuela Jornada Extendida N° 22",
+    "phone": "2337 404700"
+  }
+},
+{
+  "type": "node",
+  "id": 325724265,
+  "lat": -35.4848181,
+  "lon": -62.9775258,
+  "tags": {
+    "amenity": "kindergarten"
+  }
+},
+{
+  "type": "node",
+  "id": 2232206657,
+  "lat": -35.4886628,
+  "lon": -62.9894143,
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "B6237",
+    "addr:street": "Comandante Hillcoat",
+    "amenity": "fuel",
+    "brand": "RefiPampa",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "Voy",
+    "operator": "HEBERTO JORGE NICOLAS Y JORGE LUIS NICOLAS SOCIEDAD DE HECHO",
+    "phone": "+54 (2337) 45-3541"
+  }
+},
+{
+  "type": "node",
+  "id": 3744564627,
+  "lat": -35.4937415,
+  "lon": -62.9885770,
+  "tags": {
+    "amenity": "school",
+    "name": "Colegio Nuevo Surco"
+  }
+},
+{
+  "type": "node",
+  "id": 3903384571,
+  "lat": -35.4940581,
+  "lon": -62.9862334,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 3903384578,
+  "lat": -35.4940493,
+  "lon": -62.9863219,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3903392202,
+  "lat": -35.4941041,
+  "lon": -62.9860758,
+  "tags": {
+    "amenity": "taxi"
+  }
+},
+{
+  "type": "node",
+  "id": 9518313207,
+  "lat": -35.4915496,
+  "lon": -62.9795477,
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "221",
+    "addr:postcode": "B6237",
+    "addr:street": "Viamonte",
+    "amenity": "post_office",
+    "name": "Correo Argentino",
+    "operator": "Correo Argentino",
+    "operator:wikidata": "Q4036566",
+    "operator:wikipedia": "en:Correo Argentino",
+    "phone": "+54 (2337) 45-3159"
+  }
+},
+{
+  "type": "node",
+  "id": 11038435225,
+  "lat": -35.4862237,
+  "lon": -62.9723315,
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "309",
+    "addr:postcode": "B6237",
+    "addr:street": "Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Fernández",
+    "phone": "+54 (2337) 40-5050"
+  }
+},
+{
+  "type": "node",
+  "id": 11038435227,
+  "lat": -35.4910438,
+  "lon": -62.9821022,
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "210",
+    "addr:postcode": "B6237",
+    "addr:street": "Doctor Banfi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Caratti",
+    "phone": "+54 (2337) 45-4040"
+  }
+},
+{
+  "type": "way",
+  "id": 29557288,
+  "nodes": [
+    325716626,
+    325716837,
+    325716610,
+    325717414,
+    325716626
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "50",
+    "addr:postcode": "B6237",
+    "addr:street": "Marcos Cachau",
+    "amenity": "townhall",
+    "name": "Municipalidad de Rivadavia",
+    "phone": "+54 (2337) 45-3151",
+    "website": "http://www.munirivadavia.gov.ar"
+  }
+},
+{
+  "type": "way",
+  "id": 170145808,
+  "nodes": [
+    1812959237,
+    1812959429,
+    1812959570,
+    1812959567,
+    1812959564,
+    1812959559,
+    1812959548,
+    1812959237
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal"
+  }
+},
+{
+  "type": "way",
+  "id": 172493047,
+  "nodes": [
+    1833962183,
+    1833962182,
+    1833962181,
+    1833962184,
+    1833962183
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "272",
+    "addr:postcode": "B6237",
+    "addr:street": "San Martín",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Parroquia San Bernardo",
+    "phone": "+54 (2337) 45-2121",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 173181362,
+  "nodes": [
+    1840095205,
+    1840095203,
+    1840095207,
+    1840095222,
+    1840095205
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "mennonite",
+    "name": "Iglesia Menonita",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 290857070,
+  "nodes": [
+    2943663133,
+    2943663143,
+    2943663142,
+    2943662931,
+    2943663133
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "57",
+    "addr:postcode": "B6237",
+    "addr:street": "Doctor Banfi",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "name": "Banco de La Pampa"
+  }
+},
+{
+  "type": "way",
+  "id": 290857071,
+  "nodes": [
+    2943663148,
+    2943663145,
+    2943663147,
+    2943663150,
+    2943663153,
+    2943663148
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "301",
+    "addr:postcode": "B6237",
+    "addr:street": "Rivadavia",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Banco Nación",
+    "brand:en": "Nation Bank",
+    "brand:es": "Banco Nación",
+    "brand:wikidata": "Q2883376",
+    "brand:wikipedia": "en:Banco de la Nación Argentina",
+    "building": "yes",
+    "contact:website": "http://www.bna.com.ar/",
+    "name": "Banco Nación",
+    "name:en": "Nation Bank",
+    "name:es": "Banco Nación",
+    "official_name": "Banco de la Nación Argentina",
+    "official_name:en": "Bank of the Argentine Nation",
+    "official_name:es": "Banco de la Nación Argentina",
+    "phone": "+54 (2337) 45-3150",
+    "short_name": "BNA"
+  }
+},
+{
+  "type": "way",
+  "id": 290857072,
+  "nodes": [
+    2943662924,
+    2943662925,
+    2943662928,
+    2943662926,
+    9518313209,
+    9518313208,
+    2943662923,
+    2943662924
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:housenumber": "300",
+    "addr:postcode": "B6237",
+    "addr:street": "San Martín",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Banco Provincia",
+    "brand:en": "Province Bank",
+    "brand:es": "Banco Provincia",
+    "brand:wikidata": "Q4856209",
+    "brand:wikipedia": "es:Banco de la Provincia de Buenos Aires",
+    "building": "bank",
+    "name": "Banco Provincia",
+    "name:en": "Province Bank",
+    "name:es": "Banco Provincia",
+    "official_name": "Banco de la Provincia de Buenos Aires",
+    "official_name:en": "Bank of the Province of Buenos Aires",
+    "official_name:es": "Banco de la Provincia de Buenos Aires",
+    "phone": "+54 (2337) 45-3156"
+  }
+},
+{
+  "type": "way",
+  "id": 290857073,
+  "nodes": [
+    2943663157,
+    2943663156,
+    2943663159,
+    2943663158,
+    2943663162,
+    2943663164,
+    2943663157
+  ],
+  "tags": {
+    "addr:city": "Rivadavia",
+    "addr:housenumber": "64",
+    "addr:postcode": "6237",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "fire_station",
+    "contact:facebook": "https://www.facebook.com/bomberos.voluntariosderivadavia",
+    "email": "bomberosderiv@telcer.com.ar",
+    "name": "Bomberos Voluntarios de Rivadavia",
+    "phone": "+54 2337 452409"
+  }
+},
+{
+  "type": "way",
+  "id": 290857074,
+  "nodes": [
+    2943663160,
+    2943663163,
+    2943663167,
+    2943663165,
+    2943663160
+  ],
+  "tags": {
+    "amenity": "studio",
+    "name": "Canal 2"
+  }
+},
+{
+  "type": "way",
+  "id": 290857075,
+  "nodes": [
+    2943663171,
+    2943663182,
+    2943663181,
+    2943663169,
+    2943663171
+  ],
+  "tags": {
+    "amenity": "studio",
+    "name": "Canal 3"
+  }
+},
+{
+  "type": "way",
+  "id": 290857076,
+  "nodes": [
+    2943663184,
+    2943663183,
+    2943663192,
+    2943663198,
+    2943663184
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Colegio Nuevo Surco"
+  }
+},
+{
+  "type": "way",
+  "id": 290857077,
+  "nodes": [
+    2943663138,
+    2943663137,
+    2943663139,
+    3922280533,
+    2943663149,
+    2943663151,
+    2943663138
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "B6237",
+    "addr:street": "Marcos Cachau",
+    "amenity": "police",
+    "name": "Comisaría De Rivadavia",
+    "operator": "Policía de la Provincia de Buenos Aires",
+    "operator:wikidata": "Q4985546",
+    "operator:wikipedia": "es:Policía de la Provincia de Buenos Aires"
+  }
+},
+{
+  "type": "way",
+  "id": 290857078,
+  "nodes": [
+    2943663173,
+    2943663170,
+    2943663174,
+    2943663175,
+    2943663176,
+    2943663177,
+    2943663179,
+    2943663180,
+    2943663173
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Especial"
+  }
+},
+{
+  "type": "way",
+  "id": 290857079,
+  "nodes": [
+    2943663141,
+    2943663144,
+    2943663146,
+    2943663154,
+    2943663152,
+    2943663141
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Nº 1 de Rivadavia"
+  }
+},
+{
+  "type": "way",
+  "id": 290857080,
+  "nodes": [
+    2943662918,
+    2943662922,
+    2943662921,
+    2943662920,
+    2943662919,
+    2943662917,
+    2943662918
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Nº 6 de Rivadavia"
+  }
+},
+{
+  "type": "way",
+  "id": 290857081,
+  "nodes": [
+    2943663200,
+    2943663197,
+    2943663199,
+    2943663201,
+    2943663202,
+    2943663200
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Nº 9 de Rivadavia"
+  }
+},
+{
+  "type": "way",
+  "id": 290857082,
+  "nodes": [
+    2943663166,
+    2943663161,
+    2943663168,
+    2943663172,
+    2943663166
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Instituto América"
+  }
+},
+{
+  "type": "way",
+  "id": 290857083,
+  "nodes": [
+    2943663135,
+    2943663140,
+    2943662929,
+    2943662927,
+    2943663135
+  ],
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "Jardín De Infantes Nº 901"
+  }
+},
+{
+  "type": "way",
+  "id": 290857857,
+  "nodes": [
+    2943662913,
+    2943662915,
+    2943662916,
+    2943662914,
+    3924380390,
+    2943662913
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "escuela"
+  }
+},
+{
+  "type": "way",
+  "id": 318654645,
+  "nodes": [
+    3250265061,
+    3250264962,
+    3250264961,
+    3250264862,
+    3250265061
+  ],
+  "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "name": "Estacionamiento clientes de La Anónima"
+  }
+},
+{
+  "type": "way",
+  "id": 386999165,
+  "nodes": [
+    3903384565,
+    3903384574,
+    3903384563,
+    3903384577,
+    11785227765,
+    3903384581,
+    3903384569,
+    11785227763,
+    3903384572,
+    3903384575,
+    3903384564,
+    3903384566,
+    3903384576,
+    3903384568,
+    3903384582,
+    3903384570,
+    3903384573,
+    3903384565
+  ],
+  "tags": {
+    "amenity": "bus_station",
+    "building": "public",
+    "bus": "yes",
+    "disused": "yes",
+    "name": "Terminal de ómnibus",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "way",
+  "id": 386999166,
+  "nodes": [
+    3903384567,
+    3903384580,
+    3903384564,
+    3903384575,
+    3903384567
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 389252704,
+  "nodes": [
+    3924074340,
+    3924090775,
+    3924074348,
+    3924074345,
+    3924074338,
+    3924074352,
+    3924074342,
+    3924074340
+  ],
+  "tags": {
+    "access": "private",
+    "amenity": "parking"
+  }
+},
+{
+  "type": "way",
+  "id": 389275767,
+  "nodes": [
+    3924367309,
+    3924367307,
+    3924367308,
+    3924367306,
+    3924367309
+  ],
+  "tags": {
+    "amenity": "cinema",
+    "building": "yes",
+    "name": "Cine Español"
+  }
+},
+{
+  "type": "way",
+  "id": 413680469,
+  "nodes": [
+    4968258438,
+    4968258442,
+    4968258430,
+    4968258434,
+    4968258438
+  ],
+  "tags": {
+    "addr:city": "América",
+    "addr:postcode": "6237",
+    "addr:street": "Juan Domingo Perón",
+    "amenity": "community_centre",
+    "club": "scout",
+    "name": "Sociedad Rural Grupo Scout Francisco P. Moreno (SAAC)"
+  }
+},
+{
+  "type": "way",
+  "id": 505631882,
+  "nodes": [
+    4955197205,
+    4955197206,
+    4955197207,
+    4955197208,
+    4955197209,
+    4955197210,
+    4955197205
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Escuela Tecnica"
+  }
+},
+{
+  "type": "way",
+  "id": 696790531,
+  "nodes": [
+    6543646131,
+    6543646132,
+    6543646133,
+    6543646134,
+    6543646131
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "evangelical",
+    "religion": "universalist"
+  }
+},
+{
+  "type": "node",
+  "id": 1812959429,
+  "lat": -35.4921217,
+  "lon": -62.9872340
+},
+{
+  "type": "node",
+  "id": 2943663183,
+  "lat": -35.4930389,
+  "lon": -62.9886020
+},
+{
+  "type": "node",
+  "id": 2943663184,
+  "lat": -35.4937039,
+  "lon": -62.9894376
+},
+{
+  "type": "node",
+  "id": 2943663192,
+  "lat": -35.4939376,
+  "lon": -62.9875231
+},
+{
+  "type": "node",
+  "id": 2943663198,
+  "lat": -35.4946026,
+  "lon": -62.9883587
+},
+{
+  "type": "node",
+  "id": 1812959237,
+  "lat": -35.4912502,
+  "lon": -62.9861019
+},
+{
+  "type": "node",
+  "id": 1812959548,
+  "lat": -35.4924713,
+  "lon": -62.9845630
+},
+{
+  "type": "node",
+  "id": 1812959559,
+  "lat": -35.4925111,
+  "lon": -62.9845327
+},
+{
+  "type": "node",
+  "id": 1812959564,
+  "lat": -35.4926249,
+  "lon": -62.9846177
+},
+{
+  "type": "node",
+  "id": 1812959567,
+  "lat": -35.4927945,
+  "lon": -62.9854317
+},
+{
+  "type": "node",
+  "id": 1812959570,
+  "lat": -35.4930488,
+  "lon": -62.9861474
+},
+{
+  "type": "node",
+  "id": 3903384563,
+  "lat": -35.4941325,
+  "lon": -62.9861427
+},
+{
+  "type": "node",
+  "id": 3903384564,
+  "lat": -35.4938399,
+  "lon": -62.9862688
+},
+{
+  "type": "node",
+  "id": 3903384565,
+  "lat": -35.4940779,
+  "lon": -62.9864673
+},
+{
+  "type": "node",
+  "id": 3903384566,
+  "lat": -35.4938724,
+  "lon": -62.9863086
+},
+{
+  "type": "node",
+  "id": 3903384567,
+  "lat": -35.4939095,
+  "lon": -62.9859921
+},
+{
+  "type": "node",
+  "id": 3903384568,
+  "lat": -35.4939272,
+  "lon": -62.9864109
+},
+{
+  "type": "node",
+  "id": 3903384569,
+  "lat": -35.4940735,
+  "lon": -62.9859281
+},
+{
+  "type": "node",
+  "id": 3903384570,
+  "lat": -35.4939949,
+  "lon": -62.9863546
+},
+{
+  "type": "node",
+  "id": 3903384572,
+  "lat": -35.4939971,
+  "lon": -62.9860783
+},
+{
+  "type": "node",
+  "id": 3903384573,
+  "lat": -35.4939774,
+  "lon": -62.9864243
+},
+{
+  "type": "node",
+  "id": 3903384574,
+  "lat": -35.4940997,
+  "lon": -62.9863358
+},
+{
+  "type": "node",
+  "id": 3903384575,
+  "lat": -35.4939622,
+  "lon": -62.9860488
+},
+{
+  "type": "node",
+  "id": 3903384576,
+  "lat": -35.4938486,
+  "lon": -62.9863466
+},
+{
+  "type": "node",
+  "id": 3903384577,
+  "lat": -35.4940624,
+  "lon": -62.9860913
+},
+{
+  "type": "node",
+  "id": 3903384580,
+  "lat": -35.4937778,
+  "lon": -62.9862280
+},
+{
+  "type": "node",
+  "id": 3903384581,
+  "lat": -35.4941039,
+  "lon": -62.9859465
+},
+{
+  "type": "node",
+  "id": 3903384582,
+  "lat": -35.4939774,
+  "lon": -62.9863412
+},
+{
+  "type": "node",
+  "id": 6543646131,
+  "lat": -35.4946454,
+  "lon": -62.9802315
+},
+{
+  "type": "node",
+  "id": 6543646132,
+  "lat": -35.4946732,
+  "lon": -62.9803773
+},
+{
+  "type": "node",
+  "id": 6543646133,
+  "lat": -35.4945888,
+  "lon": -62.9804016
+},
+{
+  "type": "node",
+  "id": 6543646134,
+  "lat": -35.4945610,
+  "lon": -62.9802558
+},
+{
+  "type": "node",
+  "id": 11785227763,
+  "lat": -35.4940358,
+  "lon": -62.9860022
+},
+{
+  "type": "node",
+  "id": 11785227765,
+  "lat": -35.4940862,
+  "lon": -62.9860082
+},
+{
+  "type": "node",
+  "id": 2943663157,
+  "lat": -35.4910358,
+  "lon": -62.9752030
+},
+{
+  "type": "node",
+  "id": 2943663158,
+  "lat": -35.4912127,
+  "lon": -62.9746168
+},
+{
+  "type": "node",
+  "id": 2943663159,
+  "lat": -35.4912327,
+  "lon": -62.9747289
+},
+{
+  "type": "node",
+  "id": 2943663160,
+  "lat": -35.4912136,
+  "lon": -62.9737796
+},
+{
+  "type": "node",
+  "id": 2943663161,
+  "lat": -35.4912473,
+  "lon": -62.9744545
+},
+{
+  "type": "node",
+  "id": 2943663162,
+  "lat": -35.4912539,
+  "lon": -62.9746059
+},
+{
+  "type": "node",
+  "id": 2943663163,
+  "lat": -35.4912890,
+  "lon": -62.9742425
+},
+{
+  "type": "node",
+  "id": 2943663164,
+  "lat": -35.4913372,
+  "lon": -62.9751188
+},
+{
+  "type": "node",
+  "id": 2943663165,
+  "lat": -35.4913505,
+  "lon": -62.9737455
+},
+{
+  "type": "node",
+  "id": 2943663166,
+  "lat": -35.4913584,
+  "lon": -62.9751173
+},
+{
+  "type": "node",
+  "id": 2943663167,
+  "lat": -35.4914199,
+  "lon": -62.9742060
+},
+{
+  "type": "node",
+  "id": 2943663168,
+  "lat": -35.4916044,
+  "lon": -62.9743619
+},
+{
+  "type": "node",
+  "id": 2943663169,
+  "lat": -35.4916169,
+  "lon": -62.9750533
+},
+{
+  "type": "node",
+  "id": 2943663170,
+  "lat": -35.4916215,
+  "lon": -62.9744209
+},
+{
+  "type": "node",
+  "id": 2943663171,
+  "lat": -35.4916502,
+  "lon": -62.9752491
+},
+{
+  "type": "node",
+  "id": 2943663172,
+  "lat": -35.4917195,
+  "lon": -62.9750198
+},
+{
+  "type": "node",
+  "id": 2943663173,
+  "lat": -35.4917306,
+  "lon": -62.9750154
+},
+{
+  "type": "node",
+  "id": 2943663174,
+  "lat": -35.4919250,
+  "lon": -62.9743380
+},
+{
+  "type": "node",
+  "id": 2943663175,
+  "lat": -35.4919607,
+  "lon": -62.9745330
+},
+{
+  "type": "node",
+  "id": 2943663176,
+  "lat": -35.4919905,
+  "lon": -62.9745232
+},
+{
+  "type": "node",
+  "id": 2943663177,
+  "lat": -35.4920321,
+  "lon": -62.9747401
+},
+{
+  "type": "node",
+  "id": 2943663179,
+  "lat": -35.4920917,
+  "lon": -62.9747279
+},
+{
+  "type": "node",
+  "id": 2943663180,
+  "lat": -35.4921214,
+  "lon": -62.9749155
+},
+{
+  "type": "node",
+  "id": 2943663181,
+  "lat": -35.4921220,
+  "lon": -62.9749198
+},
+{
+  "type": "node",
+  "id": 2943663182,
+  "lat": -35.4921565,
+  "lon": -62.9751159
+},
+{
+  "type": "node",
+  "id": 2943663197,
+  "lat": -35.4946311,
+  "lon": -62.9735517
+},
+{
+  "type": "node",
+  "id": 2943663200,
+  "lat": -35.4947422,
+  "lon": -62.9741658
+},
+{
+  "type": "node",
+  "id": 2943663202,
+  "lat": -35.4950894,
+  "lon": -62.9740805
+},
+{
+  "type": "node",
+  "id": 3250264862,
+  "lat": -35.4913233,
+  "lon": -62.9798531
+},
+{
+  "type": "node",
+  "id": 3250264961,
+  "lat": -35.4913570,
+  "lon": -62.9800750
+},
+{
+  "type": "node",
+  "id": 3250264962,
+  "lat": -35.4917352,
+  "lon": -62.9799885
+},
+{
+  "type": "node",
+  "id": 3250265061,
+  "lat": -35.4917016,
+  "lon": -62.9797666
+},
+{
+  "type": "node",
+  "id": 2943663199,
+  "lat": -35.4946767,
+  "lon": -62.9734592
+},
+{
+  "type": "node",
+  "id": 2943663201,
+  "lat": -35.4949644,
+  "lon": -62.9733861
+},
+{
+  "type": "node",
+  "id": 325716610,
+  "lat": -35.4902972,
+  "lon": -62.9751838
+},
+{
+  "type": "node",
+  "id": 325716626,
+  "lat": -35.4898778,
+  "lon": -62.9757543
+},
+{
+  "type": "node",
+  "id": 325716837,
+  "lat": -35.4897971,
+  "lon": -62.9753259
+},
+{
+  "type": "node",
+  "id": 325717414,
+  "lat": -35.4903779,
+  "lon": -62.9756122
+},
+{
+  "type": "node",
+  "id": 1833962181,
+  "lat": -35.4889468,
+  "lon": -62.9745829
+},
+{
+  "type": "node",
+  "id": 1833962182,
+  "lat": -35.4890016,
+  "lon": -62.9748670
+},
+{
+  "type": "node",
+  "id": 1833962183,
+  "lat": -35.4888925,
+  "lon": -62.9748998
+},
+{
+  "type": "node",
+  "id": 1833962184,
+  "lat": -35.4888392,
+  "lon": -62.9746140
+},
+{
+  "type": "node",
+  "id": 2943662913,
+  "lat": -35.4882231,
+  "lon": -62.9737106
+},
+{
+  "type": "node",
+  "id": 2943662914,
+  "lat": -35.4882965,
+  "lon": -62.9741382
+},
+{
+  "type": "node",
+  "id": 2943662915,
+  "lat": -35.4884481,
+  "lon": -62.9736523
+},
+{
+  "type": "node",
+  "id": 2943662916,
+  "lat": -35.4885251,
+  "lon": -62.9740796
+},
+{
+  "type": "node",
+  "id": 2943662923,
+  "lat": -35.4891047,
+  "lon": -62.9745551
+},
+{
+  "type": "node",
+  "id": 2943662924,
+  "lat": -35.4891421,
+  "lon": -62.9747910
+},
+{
+  "type": "node",
+  "id": 2943662925,
+  "lat": -35.4893762,
+  "lon": -62.9747350
+},
+{
+  "type": "node",
+  "id": 2943662926,
+  "lat": -35.4893607,
+  "lon": -62.9743824
+},
+{
+  "type": "node",
+  "id": 2943662928,
+  "lat": -35.4894071,
+  "lon": -62.9746747
+},
+{
+  "type": "node",
+  "id": 2943662931,
+  "lat": -35.4895896,
+  "lon": -62.9770242
+},
+{
+  "type": "node",
+  "id": 2943663133,
+  "lat": -35.4896114,
+  "lon": -62.9771631
+},
+{
+  "type": "node",
+  "id": 2943663137,
+  "lat": -35.4897655,
+  "lon": -62.9751295
+},
+{
+  "type": "node",
+  "id": 2943663138,
+  "lat": -35.4898017,
+  "lon": -62.9753111
+},
+{
+  "type": "node",
+  "id": 2943663139,
+  "lat": -35.4900970,
+  "lon": -62.9750297
+},
+{
+  "type": "node",
+  "id": 2943663141,
+  "lat": -35.4898925,
+  "lon": -62.9757618
+},
+{
+  "type": "node",
+  "id": 2943663142,
+  "lat": -35.4898932,
+  "lon": -62.9769523
+},
+{
+  "type": "node",
+  "id": 2943663143,
+  "lat": -35.4899140,
+  "lon": -62.9770900
+},
+{
+  "type": "node",
+  "id": 2943663144,
+  "lat": -35.4899580,
+  "lon": -62.9761505
+},
+{
+  "type": "node",
+  "id": 2943663145,
+  "lat": -35.4899637,
+  "lon": -62.9764510
+},
+{
+  "type": "node",
+  "id": 2943663146,
+  "lat": -35.4899927,
+  "lon": -62.9761639
+},
+{
+  "type": "node",
+  "id": 2943663147,
+  "lat": -35.4899959,
+  "lon": -62.9763870
+},
+{
+  "type": "node",
+  "id": 2943663148,
+  "lat": -35.4900276,
+  "lon": -62.9768185
+},
+{
+  "type": "node",
+  "id": 2943663149,
+  "lat": -35.4902102,
+  "lon": -62.9747275
+},
+{
+  "type": "node",
+  "id": 2943663150,
+  "lat": -35.4902413,
+  "lon": -62.9763270
+},
+{
+  "type": "node",
+  "id": 2943663151,
+  "lat": -35.4902969,
+  "lon": -62.9751619
+},
+{
+  "type": "node",
+  "id": 2943663152,
+  "lat": -35.4903101,
+  "lon": -62.9756510
+},
+{
+  "type": "node",
+  "id": 2943663153,
+  "lat": -35.4903106,
+  "lon": -62.9767391
+},
+{
+  "type": "node",
+  "id": 2943663154,
+  "lat": -35.4903865,
+  "lon": -62.9760579
+},
+{
+  "type": "node",
+  "id": 2943663156,
+  "lat": -35.4909713,
+  "lon": -62.9748067
+},
+{
+  "type": "node",
+  "id": 3922280533,
+  "lat": -35.4900465,
+  "lon": -62.9747768
+},
+{
+  "type": "node",
+  "id": 3924367306,
+  "lat": -35.4876802,
+  "lon": -62.9744184
+},
+{
+  "type": "node",
+  "id": 3924367307,
+  "lat": -35.4877408,
+  "lon": -62.9738534
+},
+{
+  "type": "node",
+  "id": 3924367308,
+  "lat": -35.4875849,
+  "lon": -62.9738963
+},
+{
+  "type": "node",
+  "id": 3924367309,
+  "lat": -35.4878361,
+  "lon": -62.9743754
+},
+{
+  "type": "node",
+  "id": 3924380390,
+  "lat": -35.4882423,
+  "lon": -62.9738224
+},
+{
+  "type": "node",
+  "id": 9518313208,
+  "lat": -35.4891979,
+  "lon": -62.9745328
+},
+{
+  "type": "node",
+  "id": 9518313209,
+  "lat": -35.4891809,
+  "lon": -62.9744255
+},
+{
+  "type": "node",
+  "id": 1840095203,
+  "lat": -35.4904680,
+  "lon": -62.9728712
+},
+{
+  "type": "node",
+  "id": 1840095205,
+  "lat": -35.4903612,
+  "lon": -62.9729023
+},
+{
+  "type": "node",
+  "id": 1840095207,
+  "lat": -35.4904284,
+  "lon": -62.9726662
+},
+{
+  "type": "node",
+  "id": 1840095222,
+  "lat": -35.4903216,
+  "lon": -62.9726974
+},
+{
+  "type": "node",
+  "id": 2943662917,
+  "lat": -35.4886117,
+  "lon": -62.9688662
+},
+{
+  "type": "node",
+  "id": 2943662918,
+  "lat": -35.4887387,
+  "lon": -62.9695460
+},
+{
+  "type": "node",
+  "id": 2943662919,
+  "lat": -35.4888816,
+  "lon": -62.9687882
+},
+{
+  "type": "node",
+  "id": 2943662920,
+  "lat": -35.4889530,
+  "lon": -62.9692097
+},
+{
+  "type": "node",
+  "id": 2943662921,
+  "lat": -35.4889966,
+  "lon": -62.9691975
+},
+{
+  "type": "node",
+  "id": 2943662922,
+  "lat": -35.4890423,
+  "lon": -62.9694631
+},
+{
+  "type": "node",
+  "id": 2943662927,
+  "lat": -35.4894533,
+  "lon": -62.9717829
+},
+{
+  "type": "node",
+  "id": 2943662929,
+  "lat": -35.4895290,
+  "lon": -62.9722102
+},
+{
+  "type": "node",
+  "id": 2943663135,
+  "lat": -35.4897226,
+  "lon": -62.9717105
+},
+{
+  "type": "node",
+  "id": 2943663140,
+  "lat": -35.4897984,
+  "lon": -62.9721481
+},
+{
+  "type": "node",
+  "id": 4968258438,
+  "lat": -35.4798727,
+  "lon": -62.9685078
+},
+{
+  "type": "node",
+  "id": 4968258442,
+  "lat": -35.4783768,
+  "lon": -62.9702773
+},
+{
+  "type": "node",
+  "id": 3924074338,
+  "lat": -35.4950153,
+  "lon": -62.9630229
+},
+{
+  "type": "node",
+  "id": 3924074340,
+  "lat": -35.4952352,
+  "lon": -62.9634945
+},
+{
+  "type": "node",
+  "id": 3924074342,
+  "lat": -35.4949034,
+  "lon": -62.9630786
+},
+{
+  "type": "node",
+  "id": 3924074345,
+  "lat": -35.4950477,
+  "lon": -62.9629840
+},
+{
+  "type": "node",
+  "id": 3924074348,
+  "lat": -35.4953474,
+  "lon": -62.9633596
+},
+{
+  "type": "node",
+  "id": 3924074352,
+  "lat": -35.4949832,
+  "lon": -62.9629826
+},
+{
+  "type": "node",
+  "id": 3924090775,
+  "lat": -35.4953009,
+  "lon": -62.9634155
+},
+{
+  "type": "node",
+  "id": 4955197205,
+  "lat": -35.4942616,
+  "lon": -62.9653242
+},
+{
+  "type": "node",
+  "id": 4955197206,
+  "lat": -35.4941285,
+  "lon": -62.9653662
+},
+{
+  "type": "node",
+  "id": 4955197207,
+  "lat": -35.4940677,
+  "lon": -62.9651047
+},
+{
+  "type": "node",
+  "id": 4955197208,
+  "lat": -35.4948129,
+  "lon": -62.9649272
+},
+{
+  "type": "node",
+  "id": 4955197209,
+  "lat": -35.4949156,
+  "lon": -62.9653942
+},
+{
+  "type": "node",
+  "id": 4955197210,
+  "lat": -35.4943148,
+  "lon": -62.9655530
+},
+{
+  "type": "node",
+  "id": 4968258434,
+  "lat": -35.4782474,
+  "lon": -62.9664224
+},
+{
+  "type": "node",
+  "id": 4968258430,
+  "lat": -35.4767842,
+  "lon": -62.9682547
+}
+
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Rivadavia",
+        "provincia": "Buenos Aires",
+        "poblacion": 17500,
+        "superficie_km2": 3940,
+        "density": 4.44,
+        "cp": "6237"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9667,
+          -35.4833
+        ]
+      }
+    }
+  ]
+}

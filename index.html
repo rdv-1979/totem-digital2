@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruta animada - América, Buenos Aires</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: sans-serif;
+    }
+    #map {
+      height: 100vh;
+    }
+    #infoModal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      max-height: 70%;
+      background: white;
+      border: 2px solid #333;
+      border-radius: 10px;
+      overflow-y: auto;
+      padding: 20px;
+      font-size: 14px;
+      display: none;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    #infoModalClose {
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #333;
+    }
+    .instruction {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+    }
+    .icon {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      margin-right: 5px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .left {
+      background-image: url('https://cdn-icons-png.flaticon.com/512/271/271220.png');
+    }
+    .right {
+      background-image: url('https://cdn-icons-png.flaticon.com/512/271/271228.png');
+    }
+    .straight {
+      background-image: url('https://cdn-icons-png.flaticon.com/512/271/271224.png');
+    }
+    .destination {
+      background-image: url('https://cdn-icons-png.flaticon.com/512/684/684908.png');
+    }
+
+    #topControls {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1001;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #resetBtn {
+      padding: 6px 12px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    #langSelect {
+      padding: 5px 8px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .geocoder-control {
+      min-width: 250px;
+    }
+
+    #trajectoriesTableContainer {
+      margin-top: 20px;
+      padding: 20px;
+    }
+
+    #historyModal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.5);
+    }
+    #historyContent {
+      background-color: #fefefe;
+      margin: 5% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    #closeHistory {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #historyBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #currencyInfo {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      font-size: 14px;
+      max-width: 300px;
+    }
+    #currencyInfo h3 {
+      margin-top: 0;
+      color: #333;
+    }
+    #currencyInfo .currency {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+    }
+    /* Contenedor general de noticias */
+#contenedorNoticias {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 2px solid #007BFF;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+#contenedorNoticias.fade-out {
+  opacity: 0;
+}
+
+/* Estilo individual para cada noticia */
+.noticia {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.noticia img {
+  width: 150px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.noticia .contenido {
+  flex: 1;
+}
+
+.noticia .contenido h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.noticia .contenido p {
+  margin: 0 0 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.noticia .contenido small {
+  color: #555;
+}
+
+.noticia .contenido a {
+  display: inline-block;
+  margin-top: 5px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.noticia .contenido a:hover {
+  text-decoration: underline;
+}
+
+#paginacion {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#paginacion button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+#paginacion button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+#paginacion button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#paginacion span {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 8px;
+}
+    @media (max-width: 768px) {
+      #topControls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      #resetBtn, #langSelect {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      .geocoder-control {
+        width: 100%;
+      }
+      #infoModal {
+        width: 95%;
+        font-size: 12px;
+      }
+      #historyContent {
+        width: 90%;
+      }
+      #currencyInfo {
+        max-width: 90%;
+        bottom: 10px;
+        left: 5%;
+      }
+      .noticia {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .noticia img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+
+      .noticia .contenido {
+        width: 100%;
+      }
+
+      .noticia .contenido h3 {
+        font-size: 16px;
+      }
+
+      .noticia .contenido p {
+        font-size: 13px;
+      }
+
+      .noticia .contenido a {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <button id="historyBtn">Historia</button>
+
+  <div id="currencyInfo">
+    <h3>Información de Divisas</h3>
+    <div class="currency">
+      <span>Dólar (USD):</span>
+      <span id="usdRate">Cargando...</span>
+    </div>
+    <div class="currency">
+      <span>Pesos (ARS):</span>
+      <span id="arsRate">Cargando...</span>
+    </div>
+    <div class="currency">
+      <span>Euro (EUR):</span>
+      <span id="eurRate">Cargando...</span>
+    </div>
+    <div class="currency">
+      <span>Real (BRL):</span>
+      <span id="brlRate">Cargando...</span>
+    </div>
+  </div>
+
+  <div id="historyModal">
+    <div id="historyContent">
+      <span id="closeHistory">&times;</span>
+      <h2>Historia de la Ciudad</h2>
+      <div id="historyInfo"></div>
+    </div>
+  </div>
+
+  <div id="trajectoriesTableContainer" class="table-responsive">
+    <table id="trajectoriesTable" class="table table-striped table-primary table-hover">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Inicio</th>
+          <th>Destino</th>
+          <th>Distancia (km)</th>
+          <th>Duración (min)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Los datos se cargarán aquí -->
+      </tbody>
+    </table>
+  </div>
+
+  <div id="contenedorNoticias">
+    Cargando noticias de Argentina...
+  </div>
+
+    <div id="paginacion" style="text-align: center; margin-top: 10px;">
+    <button id="anterior" disabled>◀ Anterior</button>
+    <span id="paginaActual">1</span>
+    <button id="siguiente">Siguiente ▶</button>
+  </div>
+
+
+  <div id="infoModal">
+    <div id="infoModalClose">&times;</div>
+    <div id="infoModalContent"></div>
+  </div>
+
+  <div id="topControls">
+    <!--<div id="startGeocoder" class="geocoder-control"></div>
+    <div id="endGeocoder" class="geocoder-control"></div>-->
+    <button id="resetBtn">Reiniciar</button>
+    <select id="langSelect">
+      <option value="es" selected>Español</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+
+  <iframe style="height: 100vh;width: 100vw;" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=wind&product=ecmwf&level=surface&lat=-38.617&lon=-62.886&detailLat=-35.458&detailLon=-62.883&detail=true&message=true" frameborder="0"></iframe>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+  <script>
+    const ORS_API_KEY = '5b3ce3597851110001cf6248466bab6940a7462f9339b0fe9d14436d';
+    const map = L.map('map').setView([-35.4833, -62.9667], 15);
+
+    const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    const satelite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles © Esri'
+    });
+
+    const apiKey = 'pub_34191f5b5a71fc04f88276fa4c7244caecf45';
+    const url = `https://newsdata.io/api/1/news?apikey=${apiKey}&country=ar&language=es&category=top&size=10`;
+    const contenedor = document.getElementById('contenedorNoticias');
+    const anteriorBtn = document.getElementById('anterior');
+    const siguienteBtn = document.getElementById('siguiente');
+    const paginaActualSpan = document.getElementById('paginaActual');
+
+    let noticias = [];
+    let pagina = 1;
+    const noticiasPorPagina = 5;
+
+    async function cargarNoticias() {
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        console.log(data);
+        noticias = data.results || [];
+        mostrarPagina(pagina);
+        actualizarBotones();
+      } catch (error) {
+        contenedor.innerHTML = "<p>Error al cargar noticias.</p>";
+        console.error(error);
+      }
+    }
+
+    function mostrarPagina(num) {
+      contenedor.classList.add('fade-out');
+
+      setTimeout(() => {
+      contenedor.innerHTML = "";
+      const inicio = (num - 1) * noticiasPorPagina;
+      const fin = inicio + noticiasPorPagina;
+      const noticiasPagina = noticias.slice(inicio, fin);
+
+      noticiasPagina.forEach(noticia => {
+        const div = document.createElement('div');
+        div.className = 'noticia';
+
+        if(noticia.image_url == null){
+          noticia.image_url = 'imagenes/vacio.png';
+        }
+
+        div.innerHTML = `
+          <img src="${noticia.image_url }" alt="Imagen noticia">
+          <div class="contenido">
+            <h3>${noticia.title}</h3>
+            <p>${noticia.description || 'Sin descripción disponible.'}</p>
+            <small><b>Fuente:</b> ${noticia.source_name}</small><br>
+            <small><b>Fecha:</b> ${new Date(noticia.pubDate).toLocaleString()}</small><br>
+            <a href="${noticia.link}" target="_blank">Leer más</a>
+          </div>
+        `;
+        contenedor.appendChild(div);
+      });
+
+      paginaActualSpan.textContent = num;
+      contenedor.classList.remove('fade-out');
+    }, 300);
+    }
+
+    function actualizarBotones() {
+      anteriorBtn.disabled = pagina === 1;
+      siguienteBtn.disabled = pagina >= Math.ceil(noticias.length / noticiasPorPagina);
+    }
+
+    // Eventos
+    anteriorBtn.onclick = () => {
+      if (pagina > 1) {
+        pagina--;
+        mostrarPagina(pagina);
+        actualizarBotones();
+      }
+    };
+
+    siguienteBtn.onclick = () => {
+      if (pagina < Math.ceil(noticias.length / noticiasPorPagina)) {
+        pagina++;
+        mostrarPagina(pagina);
+        actualizarBotones();
+      }
+    };
+
+    cargarNoticias();
+
+
+
+    function fetchExchangeRates() {
+      // Reemplaza 'YOUR_API_KEY' con tu clave API real
+      var apiKey = 'b59f0f2a31c0e69a77983bb8';
+      var url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
+
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('usdRate').textContent = data.conversion_rates.USD;
+          document.getElementById('arsRate').textContent = data.conversion_rates.ARS;
+          document.getElementById('eurRate').textContent = data.conversion_rates.EUR;
+          document.getElementById('brlRate').textContent = data.conversion_rates.BRL;
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+    // Llama a la función para obtener las tasas de cambio
+    fetchExchangeRates();
+
+    var historyBtn = document.getElementById('historyBtn');
+    var historyModal = document.getElementById('historyModal');
+    var closeHistory = document.getElementById('closeHistory');
+
+    historyBtn.onclick = function() {
+      fetchCityHistory();
+      historyModal.style.display = 'block';
+    }
+
+    closeHistory.onclick = function() {
+      historyModal.style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+      if (event.target == historyModal) {
+        historyModal.style.display = 'none';
+      }
+    }
+
+    function fetchCityHistory() {
+      var city = "América (Argentina)"; // Usando el nombre del partido (distrito) de Rivadavia
+      var url = `https://es.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=true&explaintext=true&titles=${city}&origin=*`;
+
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          var pages = data.query.pages;
+          var pageId = Object.keys(pages)[0];
+
+          // Verificar si se encontró la página
+          if (pageId !== "-1") {
+            var historyInfo = document.getElementById('historyInfo');
+            historyInfo.innerHTML = `<p>${pages[pageId].extract}</p>`;
+          } else {
+            console.error('No se encontró información para:', city);
+            document.getElementById('historyInfo').innerHTML = `<p>No se encontró información histórica para ${city}.</p>`;
+          }
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+
+
+    const baseMaps = {
+      "Mapa": osm,
+      "Satélite": satelite
+    };
+    L.control.layers(baseMaps).addTo(map);
+
+    let points = [], marker, routeLine, allMarkers = [], currentLang = 'es';
+    const infoModal = document.getElementById('infoModal');
+    const infoContent = document.getElementById('infoModalContent');
+    const resetBtn = document.getElementById('resetBtn');
+    const langSelect = document.getElementById('langSelect');
+
+    document.getElementById('infoModalClose').addEventListener('click', () => {
+      infoModal.style.display = 'none';
+    });
+
+    const labels = {
+      es: {
+        title: 'Detalles del recorrido',
+        time: 'Tiempo estimado',
+        dist: 'Distancia',
+        instr: 'Instrucciones',
+        notfound: 'No se pudieron encontrar una o ambas direcciones.'
+      },
+      en: {
+        title: 'Route details',
+        time: 'Estimated time',
+        dist: 'Distance',
+        instr: 'Instructions',
+        notfound: 'One or both addresses could not be found.'
+      }
+    };
+
+    /*function updateGeocoderPlaceholders() {
+      geocoderStart.options.placeholder = currentLang === 'es' ? 'Buscar dirección de partida...' : 'Search start address...';
+      geocoderEnd.options.placeholder = currentLang === 'es' ? 'Buscar dirección de destino...' : 'Search end address...';
+    }*/
+
+    const geocoderStart = L.Control.geocoder({
+      defaultMarkGeocode: false,
+      placeholder: currentLang === 'es' ? 'Buscar dirección de partida...' : 'Search start address...',
+      errorMessage: currentLang === 'es' ? 'Dirección no encontrada' : 'Address not found',
+      geocoder: L.Control.Geocoder.nominatim({
+        serviceUrl: 'https://nominatim.openstreetmap.org/',
+        params: {
+          countrycodes: 'ar',
+          viewbox: '-63.1,-35.55,-62.8,-35.4',
+          bounded: 1
+        }
+      })
+    });
+
+    const geocoderEnd = L.Control.geocoder({
+      defaultMarkGeocode: false,
+      placeholder: currentLang === 'es' ? 'Buscar dirección de destino...' : 'Search end address...',
+      errorMessage: currentLang === 'es' ? 'Dirección no encontrada' : 'Address not found',
+      geocoder: L.Control.Geocoder.nominatim({
+        serviceUrl: 'https://nominatim.openstreetmap.org/',
+        params: {
+          countrycodes: 'ar',
+          viewbox: '-63.1,-35.55,-62.8,-35.4',
+          bounded: 1
+        }
+      })
+    });
+
+    //document.getElementById('startGeocoder').appendChild(geocoderStart.onAdd(map));
+    //document.getElementById('endGeocoder').appendChild(geocoderEnd.onAdd(map));
+
+    geocoderStart.on('markgeocode', function(e) {
+      const latlng = e.geocode.center;
+      points[0] = latlng;
+      clearAllMarkersAndRoute();
+      L.marker(latlng).addTo(map).bindPopup('Partida').openPopup();
+      if (points.length === 2) {
+        drawRoute(points[0], points[1]);
+      }
+    });
+
+    geocoderEnd.on('markgeocode', function(e) {
+      const latlng = e.geocode.center;
+      points[1] = latlng;
+      clearAllMarkersAndRoute();
+      L.marker(latlng).addTo(map).bindPopup('Destino').openPopup();
+      if (points.length === 2) {
+        drawRoute(points[0], points[1]);
+      }
+    });
+
+    map.on('click', function(e) {
+      if (points.length < 2) {
+        points.push(e.latlng);
+        const m = L.marker(e.latlng).addTo(map);
+        allMarkers.push(m);
+        if (points.length === 2) {
+          drawRoute(points[0], points[1]);
+        }
+      }
+    });
+
+    resetBtn.addEventListener('click', () => {
+      points = [];
+      clearAllMarkersAndRoute();
+      infoModal.style.display = 'none';
+      infoContent.innerHTML = '';
+    });
+
+    function clearAllMarkersAndRoute() {
+      allMarkers.forEach(m => map.removeLayer(m));
+      allMarkers = [];
+      if (marker) map.removeLayer(marker);
+      if (routeLine) map.removeLayer(routeLine);
+    }
+
+    function getIconFromInstruction(instr) {
+      const lower = instr.toLowerCase();
+      if (lower.includes('left') || lower.includes('izquierda')) return '<span class="icon left"></span>';
+      if (lower.includes('right') || lower.includes('derecha')) return '<span class="icon right"></span>';
+      if (lower.includes('destination') || lower.includes('destino')) return '<span class="icon destination"></span>';
+      return '<span class="icon straight"></span>';
+    }
+
+    async function drawRoute(from, to) {
+      const url = `https://api.openrouteservice.org/v2/directions/driving-car/geojson?language=${currentLang}`;
+
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Authorization': ORS_API_KEY,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          coordinates: [
+            [from.lng, from.lat],
+            [to.lng, to.lat]
+          ]
+        })
+      });
+
+      const data = await response.json();
+
+      const routeCoords = data.features[0].geometry.coordinates.map(c => [c[1], c[0]]);
+      const steps = data.features[0].properties.segments[0].steps;
+      const duration = data.features[0].properties.segments[0].duration;
+      const distance = data.features[0].properties.segments[0].distance;
+
+      if (routeLine) map.removeLayer(routeLine);
+      routeLine = L.polyline(routeCoords, { color: 'blue', weight: 5 }).addTo(map);
+
+      animateFirstPersonView(routeCoords, () => {
+        showInstructions(steps, duration, distance);
+      });
+    }
+
+    function animateFirstPersonView(coords, callback) {
+      let i = 0;
+      const interval = setInterval(() => {
+        if (i >= coords.length) {
+          clearInterval(interval);
+          if (callback) callback();
+          return;
+        }
+        map.setView(coords[i], 16, { animation: true });
+        i++;
+      }, 200);
+    }
+
+    function showInstructions(steps, duration, distance) {
+      let html = `<h3>${labels[currentLang].title}</h3>`;
+      html += `<strong>${labels[currentLang].time}:</strong> ${(duration / 60).toFixed(1)} min<br>`;
+      html += `<strong>${labels[currentLang].dist}:</strong> ${(distance / 1000).toFixed(2)} km`;
+      html += `<hr><strong>${labels[currentLang].instr}:</strong><br>`;
+
+      steps.forEach(step => {
+        const text = step.instruction;
+        html += `<div class="instruction">${getIconFromInstruction(text)} ${text}</div>`;
+      });
+
+      infoContent.innerHTML = html;
+      infoModal.style.display = 'block';
+    }
+
+    async function saveTrajectoryToDatabase(inicio, destino, distancia_km, duracion_min) {
+      const response = await fetch('save_trajectory.php', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ inicio, destino, distancia_km, duracion_min }),
+      });
+
+      const data = await response.json();
+      if (data.status === 'success') {
+          console.log('Datos guardados correctamente');
+          $('#trajectoriesTable').DataTable().ajax.reload();
+      } else {
+          console.error('Error al guardar los datos:', data.message);
+      }
+    }
+
+    function showInstructions(steps, duration, distance) {
+        let html = `<h3>${labels[currentLang].title}</h3>`;
+        html += `<strong>${labels[currentLang].time}:</strong> ${(duration / 60).toFixed(1)} min<br>`;
+        html += `<strong>${labels[currentLang].dist}:</strong> ${(distance / 1000).toFixed(2)} km`;
+        html += `<hr><strong>${labels[currentLang].instr}:</strong><br>`;
+
+        steps.forEach(step => {
+            const text = step.instruction;
+            html += `<div class="instruction">${getIconFromInstruction(text)} ${text}</div>`;
+        });
+
+        infoContent.innerHTML = html;
+        infoModal.style.display = 'block';
+
+        // Guardar en la base de datos
+        const inicio = points[0].lat + ', ' + points[0].lng;
+        const destino = points[1].lat + ', ' + points[1].lng;
+        const distancia_km = (distance / 1000).toFixed(2);
+        const duracion_min = (duration / 60).toFixed(1);
+
+        saveTrajectoryToDatabase(inicio, destino, distancia_km, duracion_min);
+    }
+
+
+    langSelect.addEventListener('change', () => {
+      currentLang = langSelect.value;
+      updateGeocoderPlaceholders();
+      if (points.length === 2) {
+        drawRoute(points[0], points[1]);
+      }
+    });
+
+    $(document).ready(function() {
+      $('#trajectoriesTable').DataTable({
+        "ajax": {
+          "url": "get_trajectories.php",
+          "dataSrc": ""
+        },
+        "columns": [
+          { "data": "id" },
+          { "data": "inicio" },
+          { "data": "destino" },
+          { "data": "distancia_km" },
+          { "data": "duracion_min" }
+        ]
+      });
+    });
+  </script>
+</body>
+</html>
+

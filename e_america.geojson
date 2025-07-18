@@ -1,0 +1,1538 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-06-25T00:17:20Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29557288",
+        "addr:city": "América",
+        "addr:housenumber": "50",
+        "addr:postcode": "B6237",
+        "addr:street": "Marcos Cachau",
+        "amenity": "townhall",
+        "name": "Municipalidad de Rivadavia",
+        "phone": "+54 (2337) 45-3151",
+        "website": "http://www.munirivadavia.gov.ar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9757543,
+              -35.4898778
+            ],
+            [
+              -62.9756122,
+              -35.4903779
+            ],
+            [
+              -62.9751838,
+              -35.4902972
+            ],
+            [
+              -62.9753259,
+              -35.4897971
+            ],
+            [
+              -62.9757543,
+              -35.4898778
+            ]
+          ]
+        ]
+      },
+      "id": "way/29557288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/170145808",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9861019,
+              -35.4912502
+            ],
+            [
+              -62.987234,
+              -35.4921217
+            ],
+            [
+              -62.9861474,
+              -35.4930488
+            ],
+            [
+              -62.9854317,
+              -35.4927945
+            ],
+            [
+              -62.9846177,
+              -35.4926249
+            ],
+            [
+              -62.9845327,
+              -35.4925111
+            ],
+            [
+              -62.984563,
+              -35.4924713
+            ],
+            [
+              -62.9861019,
+              -35.4912502
+            ]
+          ]
+        ]
+      },
+      "id": "way/170145808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/172493047",
+        "addr:city": "América",
+        "addr:housenumber": "272",
+        "addr:postcode": "B6237",
+        "addr:street": "San Martín",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Parroquia San Bernardo",
+        "phone": "+54 (2337) 45-2121",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9748998,
+              -35.4888925
+            ],
+            [
+              -62.974867,
+              -35.4890016
+            ],
+            [
+              -62.9745829,
+              -35.4889468
+            ],
+            [
+              -62.974614,
+              -35.4888392
+            ],
+            [
+              -62.9748998,
+              -35.4888925
+            ]
+          ]
+        ]
+      },
+      "id": "way/172493047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/173181362",
+        "amenity": "place_of_worship",
+        "denomination": "mennonite",
+        "name": "Iglesia Menonita",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9729023,
+              -35.4903612
+            ],
+            [
+              -62.9728712,
+              -35.490468
+            ],
+            [
+              -62.9726662,
+              -35.4904284
+            ],
+            [
+              -62.9726974,
+              -35.4903216
+            ],
+            [
+              -62.9729023,
+              -35.4903612
+            ]
+          ]
+        ]
+      },
+      "id": "way/173181362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857070",
+        "addr:city": "América",
+        "addr:housenumber": "57",
+        "addr:postcode": "B6237",
+        "addr:street": "Doctor Banfi",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "name": "Banco de La Pampa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9771631,
+              -35.4896114
+            ],
+            [
+              -62.97709,
+              -35.489914
+            ],
+            [
+              -62.9769523,
+              -35.4898932
+            ],
+            [
+              -62.9770242,
+              -35.4895896
+            ],
+            [
+              -62.9771631,
+              -35.4896114
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857071",
+        "addr:city": "América",
+        "addr:housenumber": "301",
+        "addr:postcode": "B6237",
+        "addr:street": "Rivadavia",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Banco Nación",
+        "brand:en": "Nation Bank",
+        "brand:es": "Banco Nación",
+        "brand:wikidata": "Q2883376",
+        "brand:wikipedia": "en:Banco de la Nación Argentina",
+        "building": "yes",
+        "contact:website": "http://www.bna.com.ar/",
+        "name": "Banco Nación",
+        "name:en": "Nation Bank",
+        "name:es": "Banco Nación",
+        "official_name": "Banco de la Nación Argentina",
+        "official_name:en": "Bank of the Argentine Nation",
+        "official_name:es": "Banco de la Nación Argentina",
+        "phone": "+54 (2337) 45-3150",
+        "short_name": "BNA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9768185,
+              -35.4900276
+            ],
+            [
+              -62.9767391,
+              -35.4903106
+            ],
+            [
+              -62.976327,
+              -35.4902413
+            ],
+            [
+              -62.976387,
+              -35.4899959
+            ],
+            [
+              -62.976451,
+              -35.4899637
+            ],
+            [
+              -62.9768185,
+              -35.4900276
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857072",
+        "addr:city": "América",
+        "addr:housenumber": "300",
+        "addr:postcode": "B6237",
+        "addr:street": "San Martín",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Banco Provincia",
+        "brand:en": "Province Bank",
+        "brand:es": "Banco Provincia",
+        "brand:wikidata": "Q4856209",
+        "brand:wikipedia": "es:Banco de la Provincia de Buenos Aires",
+        "building": "bank",
+        "name": "Banco Provincia",
+        "name:en": "Province Bank",
+        "name:es": "Banco Provincia",
+        "official_name": "Banco de la Provincia de Buenos Aires",
+        "official_name:en": "Bank of the Province of Buenos Aires",
+        "official_name:es": "Banco de la Provincia de Buenos Aires",
+        "phone": "+54 (2337) 45-3156"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.974791,
+              -35.4891421
+            ],
+            [
+              -62.974735,
+              -35.4893762
+            ],
+            [
+              -62.9746747,
+              -35.4894071
+            ],
+            [
+              -62.9743824,
+              -35.4893607
+            ],
+            [
+              -62.9744255,
+              -35.4891809
+            ],
+            [
+              -62.9745328,
+              -35.4891979
+            ],
+            [
+              -62.9745551,
+              -35.4891047
+            ],
+            [
+              -62.974791,
+              -35.4891421
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857073",
+        "addr:city": "Rivadavia",
+        "addr:housenumber": "64",
+        "addr:postcode": "6237",
+        "addr:street": "Leandro N. Alem",
+        "amenity": "fire_station",
+        "contact:facebook": "https://www.facebook.com/bomberos.voluntariosderivadavia",
+        "email": "bomberosderiv@telcer.com.ar",
+        "name": "Bomberos Voluntarios de Rivadavia",
+        "phone": "+54 2337 452409"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.975203,
+              -35.4910358
+            ],
+            [
+              -62.9751188,
+              -35.4913372
+            ],
+            [
+              -62.9746059,
+              -35.4912539
+            ],
+            [
+              -62.9746168,
+              -35.4912127
+            ],
+            [
+              -62.9747289,
+              -35.4912327
+            ],
+            [
+              -62.9748067,
+              -35.4909713
+            ],
+            [
+              -62.975203,
+              -35.4910358
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857074",
+        "amenity": "studio",
+        "name": "Canal 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9737796,
+              -35.4912136
+            ],
+            [
+              -62.9742425,
+              -35.491289
+            ],
+            [
+              -62.974206,
+              -35.4914199
+            ],
+            [
+              -62.9737455,
+              -35.4913505
+            ],
+            [
+              -62.9737796,
+              -35.4912136
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857075",
+        "amenity": "studio",
+        "name": "Canal 3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9752491,
+              -35.4916502
+            ],
+            [
+              -62.9751159,
+              -35.4921565
+            ],
+            [
+              -62.9749198,
+              -35.492122
+            ],
+            [
+              -62.9750533,
+              -35.4916169
+            ],
+            [
+              -62.9752491,
+              -35.4916502
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857076",
+        "amenity": "school",
+        "name": "Colegio Nuevo Surco"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9894376,
+              -35.4937039
+            ],
+            [
+              -62.9883587,
+              -35.4946026
+            ],
+            [
+              -62.9875231,
+              -35.4939376
+            ],
+            [
+              -62.988602,
+              -35.4930389
+            ],
+            [
+              -62.9894376,
+              -35.4937039
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857077",
+        "addr:city": "América",
+        "addr:postcode": "B6237",
+        "addr:street": "Marcos Cachau",
+        "amenity": "police",
+        "name": "Comisaría De Rivadavia",
+        "operator": "Policía de la Provincia de Buenos Aires",
+        "operator:wikidata": "Q4985546",
+        "operator:wikipedia": "es:Policía de la Provincia de Buenos Aires"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9753111,
+              -35.4898017
+            ],
+            [
+              -62.9751619,
+              -35.4902969
+            ],
+            [
+              -62.9747275,
+              -35.4902102
+            ],
+            [
+              -62.9747768,
+              -35.4900465
+            ],
+            [
+              -62.9750297,
+              -35.490097
+            ],
+            [
+              -62.9751295,
+              -35.4897655
+            ],
+            [
+              -62.9753111,
+              -35.4898017
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857078",
+        "amenity": "school",
+        "name": "Escuela Especial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9750154,
+              -35.4917306
+            ],
+            [
+              -62.9749155,
+              -35.4921214
+            ],
+            [
+              -62.9747279,
+              -35.4920917
+            ],
+            [
+              -62.9747401,
+              -35.4920321
+            ],
+            [
+              -62.9745232,
+              -35.4919905
+            ],
+            [
+              -62.974533,
+              -35.4919607
+            ],
+            [
+              -62.974338,
+              -35.491925
+            ],
+            [
+              -62.9744209,
+              -35.4916215
+            ],
+            [
+              -62.9750154,
+              -35.4917306
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857079",
+        "amenity": "school",
+        "name": "Escuela Nº 1 de Rivadavia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9757618,
+              -35.4898925
+            ],
+            [
+              -62.9761505,
+              -35.489958
+            ],
+            [
+              -62.9761639,
+              -35.4899927
+            ],
+            [
+              -62.9760579,
+              -35.4903865
+            ],
+            [
+              -62.975651,
+              -35.4903101
+            ],
+            [
+              -62.9757618,
+              -35.4898925
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857080",
+        "amenity": "school",
+        "name": "Escuela Nº 6 de Rivadavia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.969546,
+              -35.4887387
+            ],
+            [
+              -62.9694631,
+              -35.4890423
+            ],
+            [
+              -62.9691975,
+              -35.4889966
+            ],
+            [
+              -62.9692097,
+              -35.488953
+            ],
+            [
+              -62.9687882,
+              -35.4888816
+            ],
+            [
+              -62.9688662,
+              -35.4886117
+            ],
+            [
+              -62.969546,
+              -35.4887387
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857081",
+        "amenity": "school",
+        "name": "Escuela Nº 9 de Rivadavia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9741658,
+              -35.4947422
+            ],
+            [
+              -62.9740805,
+              -35.4950894
+            ],
+            [
+              -62.9733861,
+              -35.4949644
+            ],
+            [
+              -62.9734592,
+              -35.4946767
+            ],
+            [
+              -62.9735517,
+              -35.4946311
+            ],
+            [
+              -62.9741658,
+              -35.4947422
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857082",
+        "amenity": "school",
+        "name": "Instituto América"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9751173,
+              -35.4913584
+            ],
+            [
+              -62.9750198,
+              -35.4917195
+            ],
+            [
+              -62.9743619,
+              -35.4916044
+            ],
+            [
+              -62.9744545,
+              -35.4912473
+            ],
+            [
+              -62.9751173,
+              -35.4913584
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857083",
+        "amenity": "kindergarten",
+        "name": "Jardín De Infantes Nº 901"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9717105,
+              -35.4897226
+            ],
+            [
+              -62.9717829,
+              -35.4894533
+            ],
+            [
+              -62.9722102,
+              -35.489529
+            ],
+            [
+              -62.9721481,
+              -35.4897984
+            ],
+            [
+              -62.9717105,
+              -35.4897226
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290857857",
+        "amenity": "school",
+        "name": "escuela"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9737106,
+              -35.4882231
+            ],
+            [
+              -62.9738224,
+              -35.4882423
+            ],
+            [
+              -62.9741382,
+              -35.4882965
+            ],
+            [
+              -62.9740796,
+              -35.4885251
+            ],
+            [
+              -62.9736523,
+              -35.4884481
+            ],
+            [
+              -62.9737106,
+              -35.4882231
+            ]
+          ]
+        ]
+      },
+      "id": "way/290857857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/318654645",
+        "access": "customers",
+        "amenity": "parking",
+        "name": "Estacionamiento clientes de La Anónima"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9797666,
+              -35.4917016
+            ],
+            [
+              -62.9798531,
+              -35.4913233
+            ],
+            [
+              -62.980075,
+              -35.491357
+            ],
+            [
+              -62.9799885,
+              -35.4917352
+            ],
+            [
+              -62.9797666,
+              -35.4917016
+            ]
+          ]
+        ]
+      },
+      "id": "way/318654645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/386999165",
+        "amenity": "bus_station",
+        "building": "public",
+        "bus": "yes",
+        "disused": "yes",
+        "name": "Terminal de ómnibus",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9864673,
+              -35.4940779
+            ],
+            [
+              -62.9863358,
+              -35.4940997
+            ],
+            [
+              -62.9861427,
+              -35.4941325
+            ],
+            [
+              -62.9860913,
+              -35.4940624
+            ],
+            [
+              -62.9860082,
+              -35.4940862
+            ],
+            [
+              -62.9859465,
+              -35.4941039
+            ],
+            [
+              -62.9859281,
+              -35.4940735
+            ],
+            [
+              -62.9860022,
+              -35.4940358
+            ],
+            [
+              -62.9860783,
+              -35.4939971
+            ],
+            [
+              -62.9860488,
+              -35.4939622
+            ],
+            [
+              -62.9862688,
+              -35.4938399
+            ],
+            [
+              -62.9863086,
+              -35.4938724
+            ],
+            [
+              -62.9863466,
+              -35.4938486
+            ],
+            [
+              -62.9864109,
+              -35.4939272
+            ],
+            [
+              -62.9863412,
+              -35.4939774
+            ],
+            [
+              -62.9863546,
+              -35.4939949
+            ],
+            [
+              -62.9864243,
+              -35.4939774
+            ],
+            [
+              -62.9864673,
+              -35.4940779
+            ]
+          ]
+        ]
+      },
+      "id": "way/386999165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/386999166",
+        "access": "yes",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9859921,
+              -35.4939095
+            ],
+            [
+              -62.986228,
+              -35.4937778
+            ],
+            [
+              -62.9862688,
+              -35.4938399
+            ],
+            [
+              -62.9860488,
+              -35.4939622
+            ],
+            [
+              -62.9859921,
+              -35.4939095
+            ]
+          ]
+        ]
+      },
+      "id": "way/386999166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/389252704",
+        "access": "private",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9634945,
+              -35.4952352
+            ],
+            [
+              -62.9634155,
+              -35.4953009
+            ],
+            [
+              -62.9633596,
+              -35.4953474
+            ],
+            [
+              -62.962984,
+              -35.4950477
+            ],
+            [
+              -62.9630229,
+              -35.4950153
+            ],
+            [
+              -62.9629826,
+              -35.4949832
+            ],
+            [
+              -62.9630786,
+              -35.4949034
+            ],
+            [
+              -62.9634945,
+              -35.4952352
+            ]
+          ]
+        ]
+      },
+      "id": "way/389252704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/389275767",
+        "amenity": "cinema",
+        "building": "yes",
+        "name": "Cine Español"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9743754,
+              -35.4878361
+            ],
+            [
+              -62.9738534,
+              -35.4877408
+            ],
+            [
+              -62.9738963,
+              -35.4875849
+            ],
+            [
+              -62.9744184,
+              -35.4876802
+            ],
+            [
+              -62.9743754,
+              -35.4878361
+            ]
+          ]
+        ]
+      },
+      "id": "way/389275767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/413680469",
+        "addr:city": "América",
+        "addr:postcode": "6237",
+        "addr:street": "Juan Domingo Perón",
+        "amenity": "community_centre",
+        "club": "scout",
+        "name": "Sociedad Rural Grupo Scout Francisco P. Moreno (SAAC)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9685078,
+              -35.4798727
+            ],
+            [
+              -62.9664224,
+              -35.4782474
+            ],
+            [
+              -62.9682547,
+              -35.4767842
+            ],
+            [
+              -62.9702773,
+              -35.4783768
+            ],
+            [
+              -62.9685078,
+              -35.4798727
+            ]
+          ]
+        ]
+      },
+      "id": "way/413680469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/505631882",
+        "amenity": "school",
+        "name": "Escuela Tecnica"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9653242,
+              -35.4942616
+            ],
+            [
+              -62.965553,
+              -35.4943148
+            ],
+            [
+              -62.9653942,
+              -35.4949156
+            ],
+            [
+              -62.9649272,
+              -35.4948129
+            ],
+            [
+              -62.9651047,
+              -35.4940677
+            ],
+            [
+              -62.9653662,
+              -35.4941285
+            ],
+            [
+              -62.9653242,
+              -35.4942616
+            ]
+          ]
+        ]
+      },
+      "id": "way/505631882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696790531",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "evangelical",
+        "religion": "universalist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9802315,
+              -35.4946454
+            ],
+            [
+              -62.9802558,
+              -35.494561
+            ],
+            [
+              -62.9804016,
+              -35.4945888
+            ],
+            [
+              -62.9803773,
+              -35.4946732
+            ],
+            [
+              -62.9802315,
+              -35.4946454
+            ]
+          ]
+        ]
+      },
+      "id": "way/696790531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325722126",
+        "addr:city": "América",
+        "addr:postcode": "B6237",
+        "addr:street": "Viamonte",
+        "amenity": "fuel",
+        "brand": "Puma",
+        "brand:wikidata": "Q7259769",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "yes",
+        "name": "Puma",
+        "operator": "COMBUSTIBLES RIVADAVIA S.R.L."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9837799,
+          -35.4923244
+        ]
+      },
+      "id": "node/325722126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325722966",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Capilla San José Obrero",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9779803,
+          -35.4831194
+        ]
+      },
+      "id": "node/325722966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325722976",
+        "addr:city": "América",
+        "addr:housenumber": "148",
+        "addr:postcode": "B6237",
+        "addr:street": "Moreno",
+        "amenity": "fuel",
+        "brand": "YPF",
+        "brand:wikidata": "Q2006989",
+        "brand:wikipedia": "es:YPF",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "yes",
+        "name": "YPF",
+        "operator": "AGROAMERICA SACIFA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9784823,
+          -35.4881664
+        ]
+      },
+      "id": "node/325722976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325723336",
+        "addr:city": "América",
+        "addr:postcode": "B6237",
+        "addr:street": "Acceso Norte Lito Rodríguez",
+        "amenity": "fuel",
+        "brand": "YPF",
+        "brand:wikidata": "Q2006989",
+        "brand:wikipedia": "es:YPF",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "yes",
+        "name": "YPF",
+        "operator": "GARCIA WALTER ALBERTO",
+        "phone": "+54 (2337) 45-4706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9971772,
+          -35.4902231
+        ]
+      },
+      "id": "node/325723336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325723443",
+        "amenity": "waste_disposal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9595114,
+          -35.492296
+        ]
+      },
+      "id": "node/325723443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325723972",
+        "addr:city": "América",
+        "addr:street": "Mitre",
+        "amenity": "library",
+        "name": "Biblioteca municipal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.972466,
+          -35.4869558
+        ]
+      },
+      "id": "node/325723972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325724023",
+        "addr:city": "América",
+        "addr:postcode": "6237",
+        "addr:street": "La Rioja",
+        "amenity": "school",
+        "email": "ep22america@gmail.com.ar",
+        "name": "Escuela Jornada Extendida N° 22",
+        "phone": "2337 404700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9762465,
+          -35.4831056
+        ]
+      },
+      "id": "node/325724023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/325724265",
+        "amenity": "kindergarten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9775258,
+          -35.4848181
+        ]
+      },
+      "id": "node/325724265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2232206657",
+        "addr:city": "América",
+        "addr:postcode": "B6237",
+        "addr:street": "Comandante Hillcoat",
+        "amenity": "fuel",
+        "brand": "RefiPampa",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "yes",
+        "name": "Voy",
+        "operator": "HEBERTO JORGE NICOLAS Y JORGE LUIS NICOLAS SOCIEDAD DE HECHO",
+        "phone": "+54 (2337) 45-3541"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9894143,
+          -35.4886628
+        ]
+      },
+      "id": "node/2232206657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3744564627",
+        "amenity": "school",
+        "name": "Colegio Nuevo Surco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.988577,
+          -35.4937415
+        ]
+      },
+      "id": "node/3744564627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903384571",
+        "access": "yes",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9862334,
+          -35.4940581
+        ]
+      },
+      "id": "node/3903384571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903384578",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9863219,
+          -35.4940493
+        ]
+      },
+      "id": "node/3903384578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903392202",
+        "amenity": "taxi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9860758,
+          -35.4941041
+        ]
+      },
+      "id": "node/3903392202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9518313207",
+        "addr:city": "América",
+        "addr:housenumber": "221",
+        "addr:postcode": "B6237",
+        "addr:street": "Viamonte",
+        "amenity": "post_office",
+        "name": "Correo Argentino",
+        "operator": "Correo Argentino",
+        "operator:wikidata": "Q4036566",
+        "operator:wikipedia": "en:Correo Argentino",
+        "phone": "+54 (2337) 45-3159"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9795477,
+          -35.4915496
+        ]
+      },
+      "id": "node/9518313207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11038435225",
+        "addr:city": "América",
+        "addr:housenumber": "309",
+        "addr:postcode": "B6237",
+        "addr:street": "Mitre",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Fernández",
+        "phone": "+54 (2337) 40-5050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9723315,
+          -35.4862237
+        ]
+      },
+      "id": "node/11038435225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11038435227",
+        "addr:city": "América",
+        "addr:housenumber": "210",
+        "addr:postcode": "B6237",
+        "addr:street": "Doctor Banfi",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Caratti",
+        "phone": "+54 (2337) 45-4040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9821022,
+          -35.4910438
+        ]
+      },
+      "id": "node/11038435227"
+    }
+  ]
+}

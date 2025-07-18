@@ -1,0 +1,327 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Buenos Aires",
+        "poblacion": 17500000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4173,
+          -34.6118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CABA",
+        "poblacion": 3100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4453,
+          -34.6037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Córdoba",
+        "poblacion": 3800000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1888,
+          -31.4176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Santa Fe",
+        "poblacion": 3500000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7,
+          -31.6333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Mendoza",
+        "poblacion": 2000000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8333,
+          -32.8908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Tucumán",
+        "poblacion": 1600000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2176,
+          -26.8168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Entre Ríos",
+        "poblacion": 1400000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37,
+          -32.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Salta",
+        "poblacion": 1400000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4232,
+          -24.7859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Misiones",
+        "poblacion": 1200000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8893,
+          -27.3622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Chaco",
+        "poblacion": 1100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0,
+          -26.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Corrientes",
+        "poblacion": 1100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8333,
+          -27.4833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Santiago del Estero",
+        "poblacion": 1050000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2667,
+          -27.7833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "San Juan",
+        "poblacion": 850000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5267,
+          -31.5375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Jujuy",
+        "poblacion": 770000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3,
+          -24.1833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Río Negro",
+        "poblacion": 750000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9167,
+          -40.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Neuquén",
+        "poblacion": 720000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0591,
+          -38.9516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Formosa",
+        "poblacion": 600000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2667,
+          -25.7333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "San Luis",
+        "poblacion": 550000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3333,
+          -33.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Catamarca",
+        "poblacion": 430000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.75,
+          -28.4667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "La Rioja",
+        "poblacion": 400000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.85,
+          -29.4167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "La Pampa",
+        "poblacion": 360000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2994,
+          -36.6167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Santa Cruz",
+        "poblacion": 350000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3,
+          -50.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Tierra del Fuego",
+        "poblacion": 180000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7,
+          -54.8
+        ]
+      }
+    }
+  ]
+}
